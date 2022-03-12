@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Ashward</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="images/favicon.png" />
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- flickity -->
+    <link rel="stylesheet" type="text/css" href="assets/libs/flickity/flickity.min.css"/>
+
+    <link href="assets/css/main.css" rel="stylesheet">
+  </head>
+  <body class="home">
+
+    <div class="header__top">BEP-20: 0x9fd87aefe02441b123c3c32466cd9db4c578618f <i class="ic-copy"></i></div>
+    <header class="header -fix">
+      <div class="container container-1200 d-flex align-items-center">
+          <div class="logo">
+              <a href="index.html">
+                <img src="images/logo.png" width="198" height="152" alt="Logo">
+              </a>
+          </div>
+
+          <nav class="main__nav">
+            <ul class="el__menu">
+              <li class="menu-item active"><a href="index.html">HOME</a></li>
+              <li class="menu-item"><a href="#game-mode">LITEPAPER</a></li>
+              <li class="menu-item"><a href="#battle-earn">EVENTS</a></li>
+              <li class="menu-item"><a href="#nft-item">MARKETPLACE</a></li>
+            </ul>
+          </nav>
+
+          <div class="ms-auto">
+            <a href="" class="header__btn btn">Staking</a>
+          </div>
+      </div>
+    </header>
+
+    <div class="wrapper">
+
+      <section class="home-header">
+        <div class="ratio -center">
+          <video src="images/banner.webm" loop muted autoplay></video>
+        </div>
+
+        <div class="container">
+          <div class="el__wrap">
+            <div class="el__meta">
+              <div class="el__title wow fadeInUp">Ashward</div>
+              <div class="el__excerpt text-center wow fadeInUp">A medieval theme game that ultilizes a play-and-earn model, pixelated.</div>
+
+              <div class="d-sm-flex align-items-center">
+                <a href="" class="btn mb-3 me-3 wow fadeInLeft"><i class="ic-battle me-3"></i>Claim</a>
+                <a href="" class="btn mb-3 -sepia wow fadeInRight">Label</a>
+              </div>
+            </div>
+          </div>
+          <div class="el__scroll">Scroll down</div>
+        </div>
+      </section>
+
+      <section class="home-nft">
+        <div class="container container-900">
+
+          <header class="sc__header text-center">
+            <h2 class="sc__header__title">NFT</h2>
+          </header>
+
+          <ul class="nav nav-character justify-content-center" id="nftTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="nftTab1-tab" data-bs-toggle="tab" data-bs-target="#nftTab1" type="button" role="tab" aria-controls="nftTab1" aria-selected="true">HEROES</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="nftTab2-tab" data-bs-toggle="tab" data-bs-target="#nftTab2" type="button" role="tab" aria-controls="nftTab2" aria-selected="false">PETS</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="nftTabContent">
+            <div class="tab-pane fade show active" id="nftTab1" role="tabpanel" aria-labelledby="nftTab1-tab">
+
+              <ul class="nav nav-items justify-content-center" id="nftHeroTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="nftHeroTab1-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab1" type="button" role="tab" aria-controls="nftHeroTab1" aria-selected="true">
+                    <img src="images/hero_avatar1.png" alt="">
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="nftHeroTab2-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab2" type="button" role="tab" aria-controls="nftHeroTab2" aria-selected="false">
+                    <img src="images/hero_avatar2.png" alt="">
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="nftHeroTab3-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab3" type="button" role="tab" aria-controls="nftHeroTab3" aria-selected="false">
+                    <img src="images/hero_avatar3.png" alt="">
+                  </button>
+                </li>
+
+              </ul>
+              <div class="tab-content" id="nftHeroTabContent">
+                <div class="tab-pane fade show active" id="nftHeroTab1" role="tabpanel" aria-labelledby="nftHeroTab1-tab">
+
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="tab-content" id="nftHero01TabContent">
+                        <div class="tab-pane fade show active" id="nftHeroTab1-item" role="tabpanel" aria-labelledby="nftHeroTab1-item-tab">
+                          <div id="hero-container1" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                        </div>
+                        <div class="tab-pane fade" id="nftHeroTab2-item" role="tabpanel" aria-labelledby="nftHeroTab2-item-tab">
+                          <div id="hero-container2" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                        </div>
+                        <div class="tab-pane fade" id="nftHeroTab3-item" role="tabpanel" aria-labelledby="nftHeroTab3-item-tab">
+                          <div id="hero-container3" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                        </div>
+                        <div class="tab-pane fade" id="nftHeroTab4-item" role="tabpanel" aria-labelledby="nftHeroTab4-item-tab">
+                          <div id="hero-container4" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                        </div>
+                        <div class="tab-pane fade" id="nftHeroTab5-item" role="tabpanel" aria-labelledby="nftHeroTab5-item-tab">
+                          <div id="hero-container5" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                    <div class="col-md-7">
+                      <div class="el__title">MACSEN</div>
+                      <div class="el__excerpt">
+                        The melee class is powerful, sporting <br>high armor and damage as well as decent <br>crowd control. It is equipped with closed <br>rage weapon. Melee heroes have a short attack rage.
+                      </div>
+                      <ul class="nav nav-steps justify-content-center" id="nftHeroTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="nftHeroTab1-item-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab1-item" type="button" role="tab" aria-controls="nftHeroTab1-item" aria-selected="true">
+                            -
+                          </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="nftHeroTab2-item-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab2-item" type="button" role="tab" aria-controls="nftHeroTab2-item" aria-selected="false">
+                            I
+                          </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="nftHeroTab3-item-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab3-item" type="button" role="tab" aria-controls="nftHeroTab3-item" aria-selected="false">
+                            II
+                          </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="nftHeroTab4-item-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab4-item" type="button" role="tab" aria-controls="nftHeroTab4-item" aria-selected="false">
+                            III
+                          </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="nftHeroTab5-item-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab5-item" type="button" role="tab" aria-controls="nftHeroTab5-item" aria-selected="false">
+                            IV
+                          </button>
+                        </li>
+
+                      </ul>
+
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="tab-pane fade" id="nftHeroTab2" role="tabpanel" aria-labelledby="nftHeroTab2-tab">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <div class="tab-content" id="nftHeroTab02Content">
+                          <div class="tab-pane fade show active" id="nftHeroTab1-item2" role="tabpanel" aria-labelledby="nftHeroTab1-item2-tab">
+                            <div id="hero2-container1" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                          </div>
+                          <div class="tab-pane fade" id="nftHeroTab2-item" role="tabpanel" aria-labelledby="nftHeroTab2-item-tab">
+                            <div id="hero2-container2" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                          </div>
+                          <div class="tab-pane fade" id="nftHeroTab3-item" role="tabpanel" aria-labelledby="nftHeroTab3-item-tab">
+                            <div id="hero2-container3" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                          </div>
+                          <div class="tab-pane fade" id="nftHeroTab4-item" role="tabpanel" aria-labelledby="nftHeroTab4-item-tab">
+                            <div id="hero2-container4" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                          </div>
+                          <div class="tab-pane fade" id="nftHeroTab5-item" role="tabpanel" aria-labelledby="nftHeroTab5-item-tab">
+                            <div id="hero2-container5" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                          </div>
+                        </div>
+
+
+                      </div>
+                      <div class="col-md-7">
+                        <div class="el__title">MACSEN</div>
+                        <div class="el__excerpt">
+                          The melee class is powerful, sporting high armor and damage as well as decent crowd control. It is equipped with closed rage weapon. Melee heroes have a short attack rage.
+                        </div>
+                        <ul class="nav nav-steps justify-content-center" id="nftHeroTab02" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="nftHeroTab1-item2-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab1-item2" type="button" role="tab" aria-controls="nftHeroTab1-item2" ari2a-selected="true">
+                              -
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="nftHeroTab2-item2-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab2-item2" type="button" role="tab" aria-controls="nftHeroTab2-item2" aria-selected="false">
+                              I
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="nftHeroTab3-item2-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab3-item2" type="button" role="tab" aria-controls="nftHeroTab3-item2" aria-selected="false">
+                              II
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="nftHeroTab4-item2-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab4-item2" type="button" role="tab" aria-controls="nftHeroTab4-item2" aria-selected="false">
+                              III
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="nftHeroTab5-item2-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab5-item2" type="button" role="tab" aria-controls="nftHeroTab5-item2" aria-selected="false">
+                              IV
+                            </button>
+                          </li>
+
+                        </ul>
+
+
+                      </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nftHeroTab3" role="tabpanel" aria-labelledby="nftHeroTab3-tab">
+
+                    <div class="row">
+                      <div class="col-md-5">
+                        <div class="tab-content" id="nftHeroTab03Content">
+                          <div class="tab-pane fade show active" id="nftHeroTab1-item3" role="tabpanel" aria-labelledby="nftHeroTab1-item3-tab">
+                            <div id="hero3-container1" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                          </div>
+                          <div class="tab-pane fade" id="nftHeroTab2-item3" role="tabpanel" aria-labelledby="nftHeroTab2-item3-tab">
+                            <div id="hero3-container2" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                          </div>
+                          <div class="tab-pane fade" id="nftHeroTab3-item3" role="tabpanel" aria-labelledby="nftHeroTab3-item3-tab">
+                            <div id="hero3-container3" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                          </div>
+                          <div class="tab-pane fade" id="nftHeroTab4-item3" role="tabpanel" aria-labelledby="nftHeroTab4-item3-tab">
+                            <div id="hero3-container4" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                          </div>
+                          <div class="tab-pane fade" id="nftHeroTab5-item3" role="tabpanel" aria-labelledby="nftHeroTab5-item3-tab">
+                            <div id="hero3-container5" class="el__item__thumb" style="width: 230px; height: 230px;"></div>
+                          </div>
+                        </div>
+
+
+                      </div>
+                      <div class="col-md-7">
+                        <div class="el__title">MACSEN</div>
+                        <div class="el__excerpt">
+                          The melee class is powerful, sporting high armor and damage as well as decent crowd control. It is equipped with closed rage weapon. Melee heroes have a short attack rage.
+                        </div>
+                        <ul class="nav nav-steps justify-content-center" id="nftHeroTab03" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="nftHeroTab1-item3-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab1-item3" type="button" role="tab" aria-controls="nftHeroTab1-item3" ari2a-selected="true">
+                              -
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="nftHeroTab2-item3-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab2-item3" type="button" role="tab" aria-controls="nftHeroTab2-item3" aria-selected="false">
+                              I
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="nftHeroTab3-item3-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab3-item3" type="button" role="tab" aria-controls="nftHeroTab3-item3" aria-selected="false">
+                              II
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="nftHeroTab4-item3-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab4-item3" type="button" role="tab" aria-controls="nftHeroTab4-item3" aria-selected="false">
+                              III
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="nftHeroTab5-item3-tab" data-bs-toggle="tab" data-bs-target="#nftHeroTab5-item3" type="button" role="tab" aria-controls="nftHeroTab5-item3" aria-selected="false">
+                              IV
+                            </button>
+                          </li>
+
+                        </ul>
+
+
+                      </div>
+                    </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="tab-pane fade" id="nftTab2" role="tabpanel" aria-labelledby="nftTab2-tab">...</div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="home-game">
+        <div class="container-full">
+          <header class="sc__header text-center">
+            <h2 class="sc__header__title">GAME PLAY</h2>
+          </header>
+
+          <div class="game-slider__wrap">
+            <div class="game-slider flickity -full" data-flickity='{ "wrapAround": true, "pageDots": true, "prevNextButtons": false, "initialIndex": 2}'>
+            <div class="slider__item__wrap col-12 col-md-46">
+              <div class="slider__item">
+                <div class="slider__item__thumb">
+                  <div class="dnfix__thumb">
+                    <img src="images/gameplay2.jpg" alt="">
+                  </div>
+                </div>
+                <div class="slider__item__meta text-center">
+                    <p class="slider__item__title">Casual</p>
+                    <p class="slider__item__excerpt">Join the most exciting team adventure, <br>get rewards from the game mode</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item__wrap col-12 col-md-46">
+              <div class="slider__item">
+                <div class="slider__item__thumb">
+                  <div class="dnfix__thumb">
+                    <img src="images/gameplay3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="slider__item__meta text-center">
+                    <p class="slider__item__title">Raid</p>
+                    <p class="slider__item__excerpt">Players in a clan join boss fight together.</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item__wrap col-12 col-md-46">
+              <div class="slider__item">
+                <div class="slider__item__thumb">
+                  <div class="dnfix__thumb">
+                    <img src="images/gameplay1.jpg" alt="">
+                  </div>
+                </div>
+                <div class="slider__item__meta text-center">
+                    <p class="slider__item__title">ADVENTURE</p>
+                    <p class="slider__item__excerpt">Join the most exciting team adventure, <br>get rewards from the game mode</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <section class="home-clan">
+        <div class="container container-1000">
+          <header class="sc__header text-center">
+            <h2 class="sc__header__title">CLAN</h2>
+            <div class="sc__header__excerpt">Join the most exciting team adventure, <br>get rewards from the game mode</div>
+          </header>
+
+          <div class="ratio -center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5uI4-soZ_Po?autoplay=1&mute=1&rel=0&frameborder=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer text-center">
+        <div class="container">
+
+
+          <div class="col-12 col-md-4">
+            <div class="footer__item">
+              <h3 class="footer__title">Join us</h3>
+
+              <ul class="footer__socical pt-2 pt-md-1 justify-content-center">
+                <li><a href=""><i class="icon-facebook"></i></a></li>
+                <li><a href=""><i class="icon-twitter"></i></a></li>
+                <li><a href=""><i class="icon-yotube"></i></a></li>
+                <li><a href=""><i class="icon-telegram"></i></a></li>
+                <li><a href=""><i class="icon-medium"></i></a></li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="footer__item">
+            <h3 class="footer__title">CONTACT US</h3>
+            <p><a href="mailto:media@ashward.io">Email: media@ashward.io</a></p>
+            <p>Copyright © 2022 Ashward</p>
+          </div>
+
+        </div>
+
+      </footer>
+
+      <nav id="menu__mobile" class="nav__mobile">
+        <div class="nav__mobile__close icon-close js-menu__close"></div>
+          <div class="nav__mobile__content">
+            <ul class="nav__mobile--ul mb-4">
+              <li class="menu-item active"><a href="index.html">Home</a></li>
+              <li class="menu-item"><a href="#game-mode">Game Mode</a></li>
+              <li class="menu-item"><a href="#battle-earn">Battle & Earn</a></li>
+              <li class="menu-item"><a href="#nft-item">NFT Item</a></li>
+              <li class="menu-item"><a href="#tokenomics">Tokenomics</a></li>
+              <li class="menu-item"><a href="#team">Team</a></li>
+              <li class="menu-item"><a href="#roadmap">Roadmap</a></li>
+              <li class="menu-item"><a href="#partners">Partners</a></li>
+              <li class="menu-item"><a href="marketplace.html">Marketplace</a></li>
+              <li class="menu-item -menu-button"><a href=""><i class="ic-tank"></i>CREATE ACCOUNT</a></li>
+            </ul>
+          </div>
+      </nav>
+
+    </div> <!-- .wrapper -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/libs/flickity/flickity.pkgd.min.js"></script>
+    <script type="text/javascript" src="assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="assets/libs/spine/spine-player.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+    new spine.SpinePlayer("hero-container1", {
+          jsonUrl: "images/hero/spine_knight1/Knight1.json",
+          atlasUrl: "images/hero/spine_knight1/Knight1.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+    new spine.SpinePlayer("hero-container2", {
+          jsonUrl: "images/hero/spine_knight2/Knight2.json",
+          atlasUrl: "images/hero/spine_knight2/Knight2.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+    new spine.SpinePlayer("hero-container3", {
+          jsonUrl: "images/hero/spine_knight3/Knight3.json",
+          atlasUrl: "images/hero/spine_knight3/Knight3.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+    new spine.SpinePlayer("hero-container4", {
+          jsonUrl: "images/hero/spine_knight4/Knight4.json",
+          atlasUrl: "images/hero/spine_knight4/Knight4.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+    new spine.SpinePlayer("hero-container5", {
+          jsonUrl: "images/hero/spine_knight5/Knight5.json",
+          atlasUrl: "images/hero/spine_knight5/Knight5.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+
+
+    new spine.SpinePlayer("hero2-container1", {
+          jsonUrl: "images/hero/spine_archer1/Archer1.json",
+          atlasUrl: "images/hero/spine_archer1/Archer1.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+    new spine.SpinePlayer("hero2-container2", {
+          jsonUrl: "images/hero/spine_archer2/Archer2.json",
+          atlasUrl: "images/hero/spine_archer2/Archer2.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+    new spine.SpinePlayer("hero2-container3", {
+          jsonUrl: "images/hero/spine_archer3/Archer3.json",
+          atlasUrl: "images/hero/spine_archer3/Archer3.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+    new spine.SpinePlayer("hero2-container4", {
+          jsonUrl: "images/hero/spine_archer4/Archer4.json",
+          atlasUrl: "images/hero/spine_archer4/Archer4.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+    new spine.SpinePlayer("hero2-container5", {
+          jsonUrl: "images/hero/spine_archer5/Archer5.json",
+          atlasUrl: "images/hero/spine_archer5/Archer5.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+
+
+
+     new spine.SpinePlayer("hero3-container1", {
+          jsonUrl: "images/hero/spine_wiz1/Wiz1.json",
+          atlasUrl: "images/hero/spine_wiz1/Wiz1.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+    new spine.SpinePlayer("hero3-container2", {
+          jsonUrl: "images/hero/spine_wiz2/Wiz2.json",
+          atlasUrl: "images/hero/spine_wiz2/Wiz2.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+    new spine.SpinePlayer("hero3-container3", {
+          jsonUrl: "images/hero/spine_wiz3/Wiz3.json",
+          atlasUrl: "images/hero/spine_wiz3/Wiz3.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+    new spine.SpinePlayer("hero3-container4", {
+          jsonUrl: "images/hero/spine_wiz4/Wiz4.json",
+          atlasUrl: "images/hero/spine_wiz4/Wiz4.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+    new spine.SpinePlayer("hero3-container5", {
+          jsonUrl: "images/hero/spine_wiz5/Wiz5.json",
+          atlasUrl: "images/hero/spine_wiz5/Wiz5.atlas",
+          alpha: true,
+          showControls: false,
+          backgroundColor: "#00000000",
+          animation: "idle",
+    });
+
+    </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,111 @@
+
+Nemda4.png
+size: 424,280
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 293, 146
+  size: 73, 81
+  orig: 75, 83
+  offset: 1, 1
+  index: -1
+chan4
+  rotate: false
+  xy: 294, 229
+  size: 109, 49
+  orig: 109, 49
+  offset: 0, 0
+  index: -1
+dau
+  rotate: false
+  xy: 177, 6
+  size: 115, 135
+  orig: 117, 135
+  offset: 1, 0
+  index: -1
+giayngoai1
+  rotate: false
+  xy: 294, 87
+  size: 58, 57
+  orig: 58, 57
+  offset: 0, 0
+  index: -1
+giayngoai2
+  rotate: true
+  xy: 370, 37
+  size: 40, 41
+  orig: 40, 42
+  offset: 0, 1
+  index: -1
+giaytrong1
+  rotate: false
+  xy: 368, 176
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+giaytrong2
+  rotate: false
+  xy: 332, 9
+  size: 36, 43
+  orig: 37, 44
+  offset: 0, 1
+  index: -1
+khanchoang
+  rotate: true
+  xy: 368, 79
+  size: 95, 51
+  orig: 95, 51
+  offset: 0, 0
+  index: -1
+lao1
+  rotate: true
+  xy: 96, 73
+  size: 205, 78
+  orig: 205, 80
+  offset: 0, 1
+  index: -1
+laofx
+  rotate: true
+  xy: 2, 25
+  size: 253, 92
+  orig: 258, 92
+  offset: 2, 0
+  index: -1
+tayngoai
+  rotate: false
+  xy: 96, 7
+  size: 79, 64
+  orig: 79, 64
+  offset: 0, 0
+  index: -1
+taytrong1
+  rotate: false
+  xy: 294, 54
+  size: 48, 31
+  orig: 49, 32
+  offset: 0, 1
+  index: -1
+taytrong2
+  rotate: false
+  xy: 294, 8
+  size: 36, 44
+  orig: 37, 44
+  offset: 0, 0
+  index: -1
+taytrong3
+  rotate: false
+  xy: 370, 2
+  size: 38, 33
+  orig: 39, 34
+  offset: 0, 1
+  index: -1
+tocdoimau
+  rotate: false
+  xy: 176, 143
+  size: 115, 135
+  orig: 115, 135
+  offset: 0, 0
+  index: -1

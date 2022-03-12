@@ -1,0 +1,244 @@
+
+Knight3.png
+size: 972,280
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Aochoang
+  rotate: true
+  xy: 2, 135
+  size: 143, 123
+  orig: 143, 123
+  offset: 0, 0
+  index: -1
+Knight3atk1
+  rotate: false
+  xy: 97, 4
+  size: 82, 129
+  orig: 119, 140
+  offset: 29, 8
+  index: -1
+Knight3atk2
+  rotate: false
+  xy: 97, 4
+  size: 82, 129
+  orig: 119, 140
+  offset: 29, 8
+  index: -1
+Knight3atk10
+  rotate: false
+  xy: 493, 172
+  size: 84, 106
+  orig: 119, 140
+  offset: 7, 0
+  index: -1
+Knight3atk11
+  rotate: false
+  xy: 579, 172
+  size: 83, 106
+  orig: 119, 140
+  offset: 7, 0
+  index: -1
+Knight3atk12
+  rotate: false
+  xy: 579, 172
+  size: 83, 106
+  orig: 119, 140
+  offset: 7, 0
+  index: -1
+Knight3atk13
+  rotate: false
+  xy: 664, 174
+  size: 85, 104
+  orig: 119, 140
+  offset: 8, 0
+  index: -1
+Knight3atk14
+  rotate: false
+  xy: 751, 175
+  size: 89, 103
+  orig: 119, 140
+  offset: 9, 0
+  index: -1
+Knight3atk15
+  rotate: true
+  xy: 821, 83
+  size: 90, 74
+  orig: 119, 140
+  offset: 11, 0
+  index: -1
+Knight3atk16
+  rotate: true
+  xy: 901, 191
+  size: 87, 69
+  orig: 119, 140
+  offset: 15, 0
+  index: -1
+Knight3atk17
+  rotate: true
+  xy: 901, 102
+  size: 87, 69
+  orig: 119, 140
+  offset: 15, 0
+  index: -1
+Knight3atk18
+  rotate: true
+  xy: 842, 195
+  size: 83, 57
+  orig: 119, 140
+  offset: 19, 3
+  index: -1
+Knight3atk19
+  rotate: false
+  xy: 363, 4
+  size: 80, 30
+  orig: 119, 140
+  offset: 22, 4
+  index: -1
+Knight3atk3
+  rotate: false
+  xy: 181, 10
+  size: 89, 133
+  orig: 119, 140
+  offset: 18, 2
+  index: -1
+Knight3atk4
+  rotate: false
+  xy: 127, 145
+  size: 98, 133
+  orig: 119, 140
+  offset: 8, 0
+  index: -1
+Knight3atk5
+  rotate: false
+  xy: 2, 3
+  size: 93, 130
+  orig: 119, 140
+  offset: 8, 0
+  index: -1
+Knight3atk6
+  rotate: false
+  xy: 227, 155
+  size: 89, 123
+  orig: 119, 140
+  offset: 7, 0
+  index: -1
+Knight3atk7
+  rotate: false
+  xy: 272, 30
+  size: 89, 123
+  orig: 119, 140
+  offset: 7, 0
+  index: -1
+Knight3atk8
+  rotate: false
+  xy: 407, 162
+  size: 84, 116
+  orig: 119, 140
+  offset: 7, 0
+  index: -1
+Knight3atk9
+  rotate: false
+  xy: 318, 157
+  size: 87, 121
+  orig: 119, 140
+  offset: 7, 0
+  index: -1
+bantayngoai
+  rotate: false
+  xy: 546, 5
+  size: 35, 40
+  orig: 37, 42
+  offset: 1, 1
+  index: -1
+bantaytrong
+  rotate: true
+  xy: 639, 8
+  size: 37, 36
+  orig: 37, 36
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 830, 9
+  size: 69, 72
+  orig: 69, 72
+  offset: 0, 0
+  index: -1
+changoai
+  rotate: true
+  xy: 583, 7
+  size: 38, 54
+  orig: 40, 54
+  offset: 1, 0
+  index: -1
+chantrong
+  rotate: true
+  xy: 506, 4
+  size: 41, 38
+  orig: 42, 40
+  offset: 0, 1
+  index: -1
+dau
+  rotate: false
+  xy: 363, 36
+  size: 101, 119
+  orig: 101, 119
+  offset: 0, 0
+  index: -1
+giayngoai
+  rotate: true
+  xy: 901, 54
+  size: 46, 61
+  orig: 46, 61
+  offset: 0, 0
+  index: -1
+giaytrong
+  rotate: true
+  xy: 901, 8
+  size: 44, 57
+  orig: 44, 57
+  offset: 0, 0
+  index: -1
+khanchoang
+  rotate: true
+  xy: 795, 2
+  size: 76, 33
+  orig: 76, 35
+  offset: 0, 1
+  index: -1
+kiem
+  rotate: false
+  xy: 466, 47
+  size: 290, 113
+  orig: 290, 115
+  offset: 0, 1
+  index: -1
+longmu
+  rotate: true
+  xy: 677, 9
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+quan
+  rotate: true
+  xy: 758, 80
+  size: 93, 61
+  orig: 94, 61
+  offset: 0, 0
+  index: -1
+tayngoai
+  rotate: false
+  xy: 466, 2
+  size: 38, 43
+  orig: 39, 46
+  offset: 0, 0
+  index: -1
+taytrong
+  rotate: true
+  xy: 725, 10
+  size: 35, 68
+  orig: 37, 71
+  offset: 1, 2
+  index: -1

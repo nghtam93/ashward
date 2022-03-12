@@ -1,0 +1,118 @@
+
+nemda3.png
+size: 284,316
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aochoang
+  rotate: true
+  xy: 225, 221
+  size: 93, 51
+  orig: 95, 51
+  offset: 1, 0
+  index: -1
+bantaytrong
+  rotate: false
+  xy: 244, 12
+  size: 34, 41
+  orig: 34, 41
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 206, 55
+  size: 69, 71
+  orig: 69, 72
+  offset: 0, 1
+  index: -1
+channgoai
+  rotate: false
+  xy: 148, 3
+  size: 48, 59
+  orig: 50, 93
+  offset: 2, 34
+  index: -1
+chantrong
+  rotate: false
+  xy: 2, 2
+  size: 48, 45
+  orig: 50, 47
+  offset: 1, 1
+  index: -1
+dau
+  rotate: false
+  xy: 2, 155
+  size: 102, 96
+  orig: 102, 97
+  offset: 0, 1
+  index: -1
+giayngoai
+  rotate: true
+  xy: 2, 49
+  size: 51, 79
+  orig: 52, 79
+  offset: 0, 0
+  index: -1
+giaytrong
+  rotate: true
+  xy: 83, 36
+  size: 38, 63
+  orig: 38, 65
+  offset: 0, 1
+  index: -1
+riu1
+  rotate: false
+  xy: 207, 126
+  size: 73, 93
+  orig: 73, 95
+  offset: 0, 1
+  index: -1
+riu2
+  rotate: false
+  xy: 2, 102
+  size: 92, 51
+  orig: 92, 51
+  offset: 0, 0
+  index: -1
+riu3
+  rotate: false
+  xy: 2, 253
+  size: 111, 61
+  orig: 111, 62
+  offset: 0, 1
+  index: -1
+tayngoai
+  rotate: true
+  xy: 96, 76
+  size: 61, 80
+  orig: 61, 80
+  offset: 0, 0
+  index: -1
+taytrong
+  rotate: false
+  xy: 198, 17
+  size: 44, 36
+  orig: 44, 38
+  offset: 0, 1
+  index: -1
+thatlung
+  rotate: true
+  xy: 178, 64
+  size: 73, 26
+  orig: 73, 28
+  offset: 0, 1
+  index: -1
+toc
+  rotate: false
+  xy: 115, 236
+  size: 108, 78
+  orig: 109, 78
+  offset: 0, 0
+  index: -1
+tocdoimau
+  rotate: false
+  xy: 106, 139
+  size: 99, 95
+  orig: 99, 95
+  offset: 0, 0
+  index: -1

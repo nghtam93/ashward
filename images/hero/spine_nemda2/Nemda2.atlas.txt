@@ -1,0 +1,90 @@
+
+Nemda2.png
+size: 488,152
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aochoang
+  rotate: false
+  xy: 105, 2
+  size: 93, 50
+  orig: 95, 51
+  offset: 2, 1
+  index: -1
+body
+  rotate: true
+  xy: 205, 81
+  size: 68, 71
+  orig: 69, 72
+  offset: 0, 0
+  index: -1
+channgoai
+  rotate: true
+  xy: 2, 2
+  size: 49, 90
+  orig: 51, 93
+  offset: 1, 2
+  index: -1
+chantrong
+  rotate: false
+  xy: 414, 31
+  size: 50, 47
+  orig: 50, 47
+  offset: 0, 0
+  index: -1
+dau
+  rotate: false
+  xy: 2, 53
+  size: 101, 96
+  orig: 102, 97
+  offset: 0, 0
+  index: -1
+giayngoai
+  rotate: false
+  xy: 360, 4
+  size: 52, 79
+  orig: 52, 79
+  offset: 0, 0
+  index: -1
+giaytrong
+  rotate: false
+  xy: 235, 14
+  size: 38, 65
+  orig: 38, 65
+  offset: 0, 0
+  index: -1
+tayngoai
+  rotate: true
+  xy: 278, 22
+  size: 61, 80
+  orig: 61, 80
+  offset: 0, 0
+  index: -1
+taytrong
+  rotate: true
+  xy: 423, 80
+  size: 69, 63
+  orig: 70, 63
+  offset: 0, 0
+  index: -1
+thatlung
+  rotate: true
+  xy: 205, 6
+  size: 73, 28
+  orig: 73, 28
+  offset: 0, 0
+  index: -1
+tocdoimau
+  rotate: false
+  xy: 105, 54
+  size: 98, 95
+  orig: 101, 95
+  offset: 3, 0
+  index: -1
+weapon1
+  rotate: false
+  xy: 278, 85
+  size: 143, 64
+  orig: 143, 64
+  offset: 0, 0
+  index: -1

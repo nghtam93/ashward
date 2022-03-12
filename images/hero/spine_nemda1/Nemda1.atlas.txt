@@ -1,0 +1,90 @@
+
+Nemda1.png
+size: 280,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 205, 198
+  size: 69, 71
+  orig: 69, 72
+  offset: 0, 1
+  index: -1
+channgoai
+  rotate: false
+  xy: 209, 76
+  size: 48, 53
+  orig: 56, 93
+  offset: 1, 38
+  index: -1
+channgoai2
+  rotate: true
+  xy: 2, 2
+  size: 52, 79
+  orig: 52, 79
+  offset: 0, 0
+  index: -1
+chansau
+  rotate: false
+  xy: 209, 29
+  size: 48, 45
+  orig: 50, 47
+  offset: 1, 1
+  index: -1
+chantrong
+  rotate: false
+  xy: 206, 131
+  size: 38, 65
+  orig: 38, 65
+  offset: 0, 0
+  index: -1
+da
+  rotate: false
+  xy: 86, 7
+  size: 91, 88
+  orig: 92, 90
+  offset: 0, 1
+  index: -1
+dailung
+  rotate: true
+  xy: 179, 22
+  size: 73, 28
+  orig: 73, 28
+  offset: 0, 0
+  index: -1
+dau
+  rotate: false
+  xy: 2, 172
+  size: 101, 97
+  orig: 102, 97
+  offset: 0, 0
+  index: -1
+pant
+  rotate: true
+  xy: 246, 154
+  size: 42, 31
+  orig: 42, 33
+  offset: 0, 1
+  index: -1
+taysau
+  rotate: true
+  xy: 86, 97
+  size: 73, 118
+  orig: 75, 118
+  offset: 1, 0
+  index: -1
+taytruoc
+  rotate: false
+  xy: 2, 56
+  size: 82, 114
+  orig: 82, 114
+  offset: 0, 0
+  index: -1
+tocdoimau
+  rotate: false
+  xy: 105, 172
+  size: 98, 97
+  orig: 98, 97
+  offset: 0, 0
+  index: -1

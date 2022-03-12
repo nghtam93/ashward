@@ -1,0 +1,230 @@
+
+Knight5.png
+size: 904,344
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Knight5Effect1
+  rotate: true
+  xy: 67, 172
+  size: 169, 135
+  orig: 197, 161
+  offset: 8, 9
+  index: -1
+Knight5Effect11
+  rotate: false
+  xy: 67, 61
+  size: 135, 109
+  orig: 197, 161
+  offset: 38, 36
+  index: -1
+Knight5Effect12
+  rotate: false
+  xy: 67, 61
+  size: 135, 109
+  orig: 197, 161
+  offset: 38, 36
+  index: -1
+Knight5Effect13
+  rotate: true
+  xy: 733, 189
+  size: 74, 66
+  orig: 197, 161
+  offset: 64, 50
+  index: -1
+Knight5Effect14
+  rotate: true
+  xy: 733, 189
+  size: 74, 66
+  orig: 197, 161
+  offset: 64, 50
+  index: -1
+Knight5Effect2
+  rotate: true
+  xy: 343, 174
+  size: 167, 128
+  orig: 197, 161
+  offset: 8, 11
+  index: -1
+Knight5Effect3
+  rotate: true
+  xy: 204, 173
+  size: 168, 137
+  orig: 197, 161
+  offset: 19, 12
+  index: -1
+Knight5Effect4
+  rotate: true
+  xy: 204, 173
+  size: 168, 137
+  orig: 197, 161
+  offset: 19, 12
+  index: -1
+Knight5Effect5
+  rotate: true
+  xy: 252, 3
+  size: 168, 137
+  orig: 197, 161
+  offset: 19, 12
+  index: -1
+Knight5Effect6
+  rotate: false
+  xy: 504, 6
+  size: 143, 104
+  orig: 197, 161
+  offset: 31, 36
+  index: -1
+Knight5Effect7
+  rotate: false
+  xy: 504, 6
+  size: 143, 104
+  orig: 197, 161
+  offset: 31, 36
+  index: -1
+Knight5Effect8
+  rotate: true
+  xy: 473, 188
+  size: 153, 133
+  orig: 197, 161
+  offset: 29, 17
+  index: -1
+Knight5Effect10
+  rotate: true
+  xy: 473, 188
+  size: 153, 133
+  orig: 197, 161
+  offset: 29, 17
+  index: -1
+Knight5Effect9
+  rotate: true
+  xy: 473, 188
+  size: 153, 133
+  orig: 197, 161
+  offset: 29, 17
+  index: -1
+aochoang
+  rotate: true
+  xy: 608, 198
+  size: 143, 123
+  orig: 143, 123
+  offset: 0, 0
+  index: -1
+atkeffect
+  rotate: false
+  xy: 504, 112
+  size: 372, 74
+  orig: 374, 77
+  offset: 1, 1
+  index: -1
+body
+  rotate: false
+  xy: 833, 39
+  size: 69, 71
+  orig: 69, 72
+  offset: 0, 1
+  index: -1
+canh
+  rotate: true
+  xy: 48, 6
+  size: 53, 74
+  orig: 53, 74
+  offset: 0, 0
+  index: -1
+canh2
+  rotate: false
+  xy: 768, 267
+  size: 51, 74
+  orig: 53, 74
+  offset: 1, 0
+  index: -1
+channgoai
+  rotate: false
+  xy: 124, 6
+  size: 40, 53
+  orig: 40, 54
+  offset: 0, 1
+  index: -1
+chantrong
+  rotate: false
+  xy: 849, 255
+  size: 41, 40
+  orig: 42, 40
+  offset: 0, 0
+  index: -1
+dau
+  rotate: true
+  xy: 649, 9
+  size: 101, 119
+  orig: 101, 119
+  offset: 0, 0
+  index: -1
+dau2
+  rotate: true
+  xy: 204, 83
+  size: 88, 46
+  orig: 90, 46
+  offset: 2, 0
+  index: -1
+giao
+  rotate: true
+  xy: 2, 61
+  size: 280, 63
+  orig: 280, 65
+  offset: 0, 1
+  index: -1
+giayngoai
+  rotate: false
+  xy: 801, 204
+  size: 46, 61
+  orig: 46, 61
+  offset: 0, 0
+  index: -1
+giaytrong
+  rotate: false
+  xy: 2, 2
+  size: 44, 57
+  orig: 44, 57
+  offset: 0, 0
+  index: -1
+khanchoang
+  rotate: true
+  xy: 733, 265
+  size: 76, 33
+  orig: 76, 35
+  offset: 0, 1
+  index: -1
+khien
+  rotate: false
+  xy: 391, 11
+  size: 111, 161
+  orig: 111, 162
+  offset: 0, 1
+  index: -1
+quan
+  rotate: true
+  xy: 770, 17
+  size: 93, 61
+  orig: 94, 61
+  offset: 0, 0
+  index: -1
+tayngoai
+  rotate: true
+  xy: 166, 8
+  size: 51, 84
+  orig: 51, 84
+  offset: 0, 0
+  index: -1
+taytrong
+  rotate: false
+  xy: 833, 4
+  size: 64, 33
+  orig: 64, 35
+  offset: 0, 1
+  index: -1
+toc
+  rotate: false
+  xy: 849, 297
+  size: 49, 44
+  orig: 49, 46
+  offset: 0, 1
+  index: -1

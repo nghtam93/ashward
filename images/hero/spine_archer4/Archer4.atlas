@@ -1,0 +1,195 @@
+
+Archer4.png
+size: 932,244
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Archeratkfx_00002
+  rotate: false
+  xy: 92, 2
+  size: 146, 71
+  orig: 176, 92
+  offset: 10, 8
+  index: -1
+Archeratkfx_00004
+  rotate: true
+  xy: 92, 75
+  size: 167, 68
+  orig: 176, 92
+  offset: 7, 9
+  index: -1
+Archeratkfx_00005
+  rotate: true
+  xy: 162, 75
+  size: 167, 68
+  orig: 176, 92
+  offset: 7, 9
+  index: -1
+Archeratkfx_00008
+  rotate: true
+  xy: 232, 93
+  size: 149, 65
+  orig: 176, 92
+  offset: 10, 16
+  index: -1
+Archeratkfx_00009
+  rotate: true
+  xy: 299, 93
+  size: 149, 65
+  orig: 176, 92
+  offset: 10, 16
+  index: -1
+Archeratkfx_00010
+  rotate: true
+  xy: 650, 115
+  size: 127, 59
+  orig: 176, 92
+  offset: 31, 18
+  index: -1
+Archeratkfx_00011
+  rotate: true
+  xy: 711, 115
+  size: 127, 59
+  orig: 176, 92
+  offset: 31, 18
+  index: -1
+Archeratkfx_00014
+  rotate: false
+  xy: 850, 95
+  size: 71, 39
+  orig: 176, 92
+  offset: 51, 23
+  index: -1
+aochoang
+  rotate: true
+  xy: 479, 110
+  size: 132, 121
+  orig: 132, 121
+  offset: 0, 0
+  index: -1
+bantay
+  rotate: true
+  xy: 467, 2
+  size: 95, 43
+  orig: 95, 43
+  offset: 0, 0
+  index: -1
+baoten
+  rotate: true
+  xy: 850, 161
+  size: 81, 80
+  orig: 81, 80
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 831, 12
+  size: 62, 46
+  orig: 62, 47
+  offset: 0, 1
+  index: -1
+channgoai
+  rotate: false
+  xy: 614, 11
+  size: 53, 98
+  orig: 53, 98
+  offset: 0, 0
+  index: -1
+cung
+  rotate: false
+  xy: 2, 12
+  size: 88, 230
+  orig: 108, 230
+  offset: 0, 0
+  index: -1
+dau
+  rotate: false
+  xy: 366, 99
+  size: 111, 143
+  orig: 112, 143
+  offset: 1, 0
+  index: -1
+daunochange
+  rotate: true
+  xy: 669, 3
+  size: 110, 120
+  orig: 110, 120
+  offset: 0, 0
+  index: -1
+duitrong1
+  rotate: false
+  xy: 879, 60
+  size: 43, 33
+  orig: 43, 33
+  offset: 0, 0
+  index: -1
+duitrong2
+  rotate: false
+  xy: 791, 76
+  size: 48, 38
+  orig: 48, 38
+  offset: 0, 0
+  index: -1
+khanquang
+  rotate: true
+  xy: 791, 3
+  size: 71, 38
+  orig: 71, 38
+  offset: 0, 0
+  index: -1
+muiten1
+  rotate: true
+  xy: 602, 111
+  size: 131, 46
+  orig: 131, 48
+  offset: 0, 1
+  index: -1
+muiten2
+  rotate: false
+  xy: 352, 5
+  size: 113, 86
+  orig: 113, 87
+  offset: 0, 1
+  index: -1
+muiten3
+  rotate: true
+  xy: 240, 2
+  size: 89, 110
+  orig: 89, 112
+  offset: 0, 1
+  index: -1
+muiten4
+  rotate: false
+  xy: 512, 8
+  size: 100, 100
+  orig: 100, 102
+  offset: 0, 1
+  index: -1
+tayngoai
+  rotate: false
+  xy: 772, 116
+  size: 76, 28
+  orig: 76, 30
+  offset: 0, 1
+  index: -1
+tayngoaimau
+  rotate: true
+  xy: 817, 167
+  size: 75, 28
+  orig: 75, 28
+  offset: 0, 0
+  index: -1
+taytrong
+  rotate: true
+  xy: 772, 146
+  size: 96, 43
+  orig: 96, 44
+  offset: 0, 1
+  index: -1
+thatlung
+  rotate: false
+  xy: 850, 136
+  size: 73, 23
+  orig: 73, 25
+  offset: 0, 1
+  index: -1
