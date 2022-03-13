@@ -500,12 +500,21 @@
 	&-team{
 		padding: 80px 0 60px;
 		.el__item{
+			padding-top: 10px;
 			font-size: 18px;
 			line-height: 1.5;
 			color: #FFFFFF;
-			margin-bottom: 40px;
+			margin-bottom: 30px;
+			&:hover{
+				.el__item__thumb{
+					transform: translateY(-5px);
+				}
+			}
 			&__meta{
 				text-align: center;
+			}
+			&__thumb{
+				transition: all .5s;
 			}
 			&__title{
 				font-size: 24px;
