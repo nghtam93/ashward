@@ -39,7 +39,7 @@ body {
 }
 
 a, a:hover {
-    color: #4D4D4D;
+    color: #FFECA7;
     text-decoration: none;
     // transition: all 0.3s;
 
@@ -223,9 +223,9 @@ hr{
 }
 
 
-// .flickity:not(.flickity-enabled){
-//     display: none;
-// }
+.flickity:not(.flickity-enabled) .slider__item__wrap + .slider__item__wrap {
+    display: none;
+}
 .flickity-page-dots{
     bottom: -60px;
     z-index: 1;
@@ -528,7 +528,10 @@ hr{
         width: 20%;
     }
     .container-900{
-        max-width: 900px;
+        max-width: 924px;
+    }
+    .container-800{
+        max-width: 800px;
     }
 
 }
@@ -537,7 +540,10 @@ hr{
         max-width: 1124px;
     }
     .container-900{
-        max-width: 900px;
+        max-width: 924px;
+    }
+    .container-800{
+        max-width: 800px;
     }
     .gx-lg-120{
         --bs-gutter-x: 120px;

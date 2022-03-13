@@ -100,68 +100,6 @@ $(document).ready(function(){
 
     $('.menu-mb__btn').dnmenu()
 
-
-
-    //Select Item
-    function ddropdown(elm) {
-
-        $(elm).click(function(e) {
-            e.preventDefault();
-
-            dnselect_parent = $(this).closest('.js-ddropdown')
-
-            if( dnselect_parent.hasClass('show') ){
-                $('.js-ddropdown').removeClass('show');
-            }else{
-                $('.js-ddropdown').removeClass('show');
-                dnselect_parent.addClass('show')
-            }
-        })
-
-        $('.js-ddropdown').mousedown(function(e){ e.stopPropagation(); });
-        $(document).mousedown(function(e){ $('.js-ddropdown').removeClass('show'); });
-    }
-    ddropdown('.js-ddropdown-toggle')
-
-    /*home-intro*/
-    if($('body').hasClass('home')){
-
-    }
-
-    // Click id a
-    var jump=function(e)
-    {
-        $(document).off("scroll");
-        if (e){
-           var url = $(this).attr("href");
-           var id = url.substring(url.lastIndexOf('/') + 1);
-           target = id
-        }else{
-           var target = location.hash;
-        }
-
-        if($(target).offset() != undefined){
-            e.preventDefault();
-            $('html, body').stop().animate({
-                'scrollTop': $(target).offset().top
-            });
-
-            location.hash = target;
-        }
-    }
-    $('body.home a[href*="#"]').bind("click", jump);
-
-    $(document).on('click', 'body.home a[href*="#"]', function (e) {
-        console.log(1)
-
-        //Close menu mb
-        $('body').removeClass('modal-open')
-        $('#menu__mobile').removeClass('active')
-        $('.menu-mb__btn').removeClass('active')
-        $('.header-mb').removeClass('-menu-mb-active')
-    });
-
-
 });
 
 

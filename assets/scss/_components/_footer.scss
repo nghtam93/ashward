@@ -1,92 +1,30 @@
 .footer{
 	position: relative;
-	padding: 80px 0 60px;
+	padding: 80px 0 16px;
 	color: #fff;
+	font-size: 14px;
+	line-height: 1.5;
 	.container{
 		position: relative;
 	}
 	a{
-		font-weight: bold;
 		font-size: 14px;
 		line-height: 21px;
-		color: rgba(255, 255, 255, .8);
+		color: #FFFFFF;
 		&:hover{
-			color: #0cc1da;
+			color: #FFECA7;
 		}
 	}
 	&__item{
 		position: relative;
-		display: inline-block;
-		padding: 16px;
-		&--border{
-			.-top, .-bottom{
-				&:before, &:after{
-					content: '';
-					position: absolute;
-					width: 8px;
-					height: 8px;
-				}
-			}
-			.-top{
-				&:before{
-					top: 0;
-					left: 0;
-					border-top: 2px solid #04A327;
-					border-left: 2px solid #04A327;
-				}
-				&:after{
-					top: 0;
-					right: 0;
-					border-top: 2px solid #04A327;
-					border-right: 2px solid #04A327;
-				}
-			}
-			.-bottom{
-				&:before{
-					bottom: 0;
-					left: 0;
-					border-bottom: 2px solid #04A327;
-					border-left: 2px solid #04A327;
-				}
-				&:after{
-					bottom: 0;
-					right: 0;
-					border-bottom: 2px solid #04A327;
-					border-right: 2px solid #04A327;
-				}
-			}
-		}
-
+		display: block;
+		margin-bottom: 100px;
 	}
 	&__title{
-		font-weight: 900;
-		font-size: 14px;
-		line-height: 16px;
-		color: #E09B0F;
-		margin-bottom: 8px;
-	}
-	&__logo{
-		margin-bottom: 40px;
-		img{
-			max-width: 450px;
-			height: auto;
-		}
-		&__text{
-			margin-top: 8px;
-			font-family: Changa;
-			font-style: normal;
-			font-weight: 800;
-			font-size: 54px;
-			line-height: 54px;
-			/* or 100% */
-
-			text-align: center;
-			text-transform: uppercase;
-
-			color: #FFFFFF;
-
-			text-shadow: 0px 1.26697px 1.26697px #034110;
-		}
+		font-size: 16px;
+		line-height: 1.5;
+		color: #FFFFFF;
+		margin-bottom: 4px;
 	}
 
 	&__socical{
@@ -95,21 +33,17 @@
 		li{
 			margin-bottom: 10px;
 			&:not(:last-child){
-				margin-right: 19px;
+				margin-right: 16px;
 			}
 		}
 		a{
 			position: relative;
 			display: block;
 			color: #fff;
-			font-weight: 400;
-			font-size: 16px;
+			font-size: 24px;
 			transition: all .5s;
 			&:hover{
-
-			}
-			span{
-				position: relative;
+				color: #FFECA7;
 			}
 		}
 
