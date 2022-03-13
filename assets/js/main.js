@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+    $('body').addClass('modal-open')
+    $(window).on("load", function () {
+      $('.loading-page__logo').fadeOut();
+      $('.loading-page').delay(350).fadeOut('slow');
+      $('body').removeClass('modal-open')
+    })
 
     // Stick header
     var stick_header = $('.header.-fix')
