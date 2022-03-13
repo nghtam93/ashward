@@ -603,8 +603,22 @@
 			.game-slider__wrap::before {
 				display: none;
 			}
-			.nav-link {
-			  max-width: 343px;
+		}
+		&-roadmap{
+			.sc__header {
+			  margin: 0;
+			}
+			.nav-item{
+				padding-top: 100px;
+			}
+			.nav-link{
+				max-width: 343px;
+				margin: 0 auto;
+			}
+			.tab-content {
+			  min-height: 460px;
+			  max-width: 340px;
+			  margin: 0 auto;
 			}
 		}
 	}
