@@ -10,8 +10,6 @@ $(document).ready(function(){
         })
     }
 
-
-
     /*----Get Header Height ---*/
     function get_header_height() {
         var header_sticky = $("header").outerHeight()
