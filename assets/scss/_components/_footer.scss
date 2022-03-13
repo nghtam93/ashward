@@ -50,36 +50,23 @@
 	}
 
 	@media (max-width: 1399px){
-		&__logo img {
-		    max-width: 330px;
-		}
+
 	}
 	@media (max-width: 1199px){
 
 	}
 	@media (max-width: 991px){
-		&__logo {
-		    &__text {
-			    font-size: 48px;
-			    line-height: 50px;
-			}
-		}
-
+		padding: 60px 0 16px;
 	}
 	@media (max-width: 767px){
-
-	    &__logo__text {
-		    font-size: 40px;
-		    line-height: 46px;
+		.sc__header {
+		    margin-bottom: 10px;
+		}
+		&__item {
+		    margin-bottom: 50px;
 		}
 	}
 	@media (max-width: 575px){
-		&__logo__text {
-		    font-size: 30px;
-		    line-height: 30px;
-		}
-		&__logo img {
-		    max-width: 250px;
-		}
+
 	}
 }

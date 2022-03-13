@@ -47,7 +47,7 @@
 			position: relative;
 			z-index: 1;
 			--bs-aspect-ratio: calc(9 / 16 * 100%);
-			min-height: 700px;
+			min-height: 500px;
 		}
 		.el__title{
 			font-style: normal;
@@ -100,6 +100,7 @@
 	&-nft{
 		position: relative;
 		padding: 80px 0;
+		overflow: hidden;
 		&::before {
 			content: '';
 		    position: absolute;
@@ -213,6 +214,7 @@
 				text-align:center;
 				padding-top: 100%;
 				margin-top: -15px;
+				z-index: 1;
 				&::before {
 					content: '';
 					position: absolute;
@@ -225,6 +227,7 @@
 					background-size: contain;
 					z-index: -1;
 					pointer-events: none;
+					animation: spinner-rotate 40s linear infinite, lightAnimation 2s ease-in-out infinite;
 				}
 				&::after {
 					content: '';
@@ -242,11 +245,15 @@
 					max-width: 300px;
 					right: 0;
 					margin: auto;
+					animation: lightAnimation 2s ease-in-out infinite;
 				}
 				.dnfix__thumb{
 					width: 100%;
 					max-width: 230px;
 					padding-top: 100%;
+					img{
+						object-position: bottom;
+					}
 				}
 			}
 			&__spine{
@@ -282,8 +289,8 @@
 				position: absolute;
 				top: 40%;
 				left: 8%;
-				width: 352px;
-				height: 391px;
+				width: 26%;
+				height: 70%;
 				z-index: 2;
 				background: url(../img/gameplayTuong1.png);
 				background-repeat: no-repeat;
@@ -426,8 +433,8 @@
 			    left: 0;
 			    right: 0;
 			    margin: 0 auto;
-			    width: 180px;
-			    height: 250px;
+			    width: 49%;
+				height: 132%;
 			    background: url(../img/roadmap_king.png);
 			    background-repeat: no-repeat;
 			    background-size: contain;
@@ -463,6 +470,7 @@
 		.el__title{
 			font-size: 48px;
 			color: #FFE480;
+			margin-bottom: 30px;
 		}
 		.el__excerpt{
 			font-size: 18px;
@@ -524,9 +532,80 @@
 		.dnfix__thumb{
 			padding-top: 34%;
 		}
+
 	}
 
-	@media (max-width: 575px){
-
+	@media (max-width: 1199px){
+		&-roadmap{
+			.el__title {
+			    font-size: 40px;
+			}
+		}
+	}
+	@media (max-width: 991px){
+		&-nft{
+			.nav-items {
+			    margin-bottom: 100px;
+			}
+			.nav-steps .nav-item:not(:last-child) {
+			    margin-right: 24px;
+			}
+			.tab3__item__thumb {
+			    margin-top: 0;
+			}
+		}
+		&-game{
+   			padding: 60px 0 90px;
+			.game-slider__wrap:before {
+			    left: 4%;
+			}
+		}
+		&-clan {
+		    padding: 60px 0 30px;
+		}
+		&-team {
+		    padding: 60px 0 40px;
+		}
+		&-roadmap{
+			.el__title {
+			    font-size: 32px;
+			}
+			.tab-pane {
+			    padding: 43px 40px;
+			}
+			.el__excerpt {
+			    font-size: 16px;
+			}
+		}
+	}
+	@media (max-width: 767px){
+		&-nft{
+			padding: 80px 0 40px;
+			.nav-items {
+			    margin-bottom: 50px;
+			}
+			.tab3__item__thumb {
+			    margin-top: 0;
+			    width: 350px;
+			    padding-top: 350px;
+			    margin: 0 auto 50px;
+			}
+			.tab3__item__meta {
+			    max-width: 400px;
+			    margin: 0 auto;
+			}
+		}
+		&-game{
+			.slider__item {
+			  max-width: 80%;
+			  margin: 0 auto;
+			}
+			.game-slider__wrap::before {
+				display: none;
+			}
+			.nav-link {
+			  max-width: 343px;
+			}
+		}
 	}
 }
