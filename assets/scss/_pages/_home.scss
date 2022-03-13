@@ -15,6 +15,9 @@
 	}
 	&-header{
 		position: relative;
+		.container{
+			height: 100%;
+		}
 		.el__wrap{
 			position: absolute;
 			top: 0;
@@ -37,17 +40,19 @@
 		}
 		.el__meta{
 			position: relative;
+			padding-top: 100px;
 		    height: 100%;
 		    display: flex;
 		    align-items: center;
 		    justify-content: center;
 		    flex-direction: column;
+		    z-index: 2;
 		}
 		.ratio{
 			position: relative;
 			z-index: 1;
 			--bs-aspect-ratio: calc(9 / 16 * 100%);
-			min-height: 500px;
+			min-height: 600px;
 		}
 		.el__title{
 			font-style: normal;
@@ -415,7 +420,7 @@
 	&-roadmap{
 		position: relative;
 		padding: 80px 0 40px;
-
+		overflow: hidden;
 		.nav-item{
 			margin-bottom: 50px;
 		}
@@ -579,6 +584,17 @@
 		}
 	}
 	@media (max-width: 767px){
+		&-header{
+			.el__title {
+			  font-size: 32px;
+			  line-height: 1.5;
+			  margin-bottom: 16px;
+			}
+			.el__excerpt {
+			  font-size: 18px;
+			  line-height: 26px;
+			}
+		}
 		&-nft{
 			padding: 80px 0 40px;
 			.nav-items {
@@ -619,6 +635,67 @@
 			  min-height: 460px;
 			  max-width: 340px;
 			  margin: 0 auto;
+			}
+			.nav-roadmap__wrap {
+			  margin-bottom: 30px;
+			}
+			.flickity-page-dots {
+			    bottom: 0;
+			}
+		}
+	}
+	@media (max-width: 575px){
+
+		&-header{
+			.btn__wrap{
+				flex-direction: column;
+			}
+		}
+		&-nft{
+  			padding: 40px 0 20px;
+  			.nav-steps {
+			  flex-wrap: nowrap;
+			  overflow-y: auto;
+			  padding: 2px 3px;
+			  	&::-webkit-scrollbar {
+				  display: none;
+				}
+			}
+			.nav-character .nav-link {
+			  padding: 0.5rem 30px;
+			  font-size: 24px;
+			}
+			.tab3__item__thumb {
+			    width: 300px;
+			    padding-top: 300px;
+			}
+		}
+		&-game{
+  			padding: 60px 0 40px;
+			.slider__item__title {
+			    font-size: 16px;
+			}
+			.slider__item__excerpt {
+			    font-size: 14px;
+			}
+			.flickity-page-dots {
+			  bottom: -40px;
+			}
+		}
+		&-roadmap {
+		  padding: 60px 0 0px;
+		}
+		&-team{
+			.el__item__title {
+			  font-size: 20px;
+			}
+			.el__item__excerpt {
+			  font-size: 14px;
+			}
+		}
+		&-partners{
+			.el__item {
+			  margin-bottom: 10px;
 			}
 		}
 	}
