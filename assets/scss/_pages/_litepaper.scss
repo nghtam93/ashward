@@ -132,7 +132,15 @@
 			}
 
 			&.-investor{
-
+				.-max220{
+					max-width: 220px;
+				}
+				.li__val{
+					max-width: 205px;
+					.-ongoing{
+						color: #35A700;
+					}
+				}
 			}
 			li{
 				display: flex;
