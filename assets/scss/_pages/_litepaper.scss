@@ -132,13 +132,21 @@
 			}
 
 			&.-investor{
+				li{
+					&:last-child{
+						border-bottom: 0;
+					}
+				}
 				.-max220{
 					max-width: 220px;
 				}
 				.li__val{
 					max-width: 205px;
-					.-ongoing{
+					&.-ongoing{
 						color: #35A700;
+					}
+					&.-pending{
+						color: #9C5C5C;
 					}
 				}
 			}
@@ -181,6 +189,59 @@
 			}
 
 		}
+
+		.table{
+			font-size: 16px;
+			line-height: 20px;
+			color: #D0D0D0;
+			&.-table-6col{
+				td, th{
+					&:nth-child(4), &:nth-child(5), &:nth-child(6){
+						text-align: center;
+					}
+				}
+				.tr-toggle{
+					display: none;
+					&.active{
+						display: block;
+					}
+				}
+				@media (max-width:767px){
+					thead{
+						display: none;
+					}
+					td, th{
+						&:nth-child(2), &:nth-child(5), &:nth-child(6){
+							display: none;
+						}
+					}
+				}
+			}
+			thead{
+				color: #9C5C5C;
+				th{
+					font-weight: 400;
+				}
+
+			}
+			> :not(caption) > * > *{
+				vertical-align: middle;
+				padding: 12px 0.5rem;
+				border-bottom: 1px solid #5E434A;
+			}
+
+			.td__stt{
+				color: #9C5C5C;
+				&.-claimed{
+					color: #35A700;
+				}
+			}
+
+			&-note{
+				font-size: 16px;
+				color: #716161;
+			}
+		}
 	}
 	@media (max-width: 575px){
 		&__header{
@@ -199,6 +260,14 @@
 			}
 			.el__list.-light li .li__val {
 			    font-size: 14px;
+			}
+			.el__list.-investor{
+				.-max220{
+					max-width: 220px;
+				}
+				.li__val{
+					max-width: 180px;
+				}
 			}
 		}
 	}

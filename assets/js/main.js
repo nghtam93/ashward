@@ -132,6 +132,11 @@ $(document).ready(function(){
         });
     }
     checkDisableButton();
+
+    /**/
+    $('.js-tr-toggle').click(function(e){
+        $(this).next().toggle()
+    })
 });
 
 
