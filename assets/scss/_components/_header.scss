@@ -1,6 +1,6 @@
 .header{
-	position: fixed;
-	top: 32px;
+	position: relative;
+	top: 0;
 	left: 0;
 	width: 100%;
 	max-width:100%;
@@ -10,6 +10,10 @@
 	backdrop-filter: blur(8px);
 	-webkit-backdrop-filter: blur(8px);
 	transition: all .5s;
+	&.-fix{
+		position: fixed;
+		top: 32px;
+	}
 	&.is-sticky{
 		top: 0;
 		// padding: 30px 0;
@@ -29,7 +33,7 @@
 	}
 
 	&__top {
-	    position: absolute;
+	    position: relative;
 	    top: 0;
 	    left: 0;
 	    width: 100%;
@@ -42,6 +46,9 @@
 	    align-items: center;
 	    justify-content: center;
 	    padding: 2px 0;
+	    &.-absolute{
+	    	position: absolute;
+	    }
 	}
 	&__btn{
 		min-width: 92px;

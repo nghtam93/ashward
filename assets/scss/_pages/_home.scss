@@ -616,8 +616,20 @@
 			    margin: 0 auto 50px;
 			}
 			.tab3__item__meta {
-			    max-width: 400px;
+			    max-width: 362px;
 			    margin: 0 auto;
+			    text-align: center;
+			}
+			.tab3__item__excerpt {
+			    min-height: auto;
+			}
+			.nav-steps {
+				justify-content: center;
+				.nav-item:first-child{
+					&:before{
+						display: none;
+					}
+				}
 			}
 		}
 		&-game{
@@ -663,9 +675,11 @@
 		&-nft{
   			padding: 40px 0 20px;
   			.nav-steps {
-			  flex-wrap: nowrap;
-			  overflow-y: auto;
-			  padding: 2px 3px;
+
+				flex-wrap: nowrap;
+				overflow-y: auto;
+				padding: 2px 3px;
+				margin-top: 0;
 			  	&::-webkit-scrollbar {
 				  display: none;
 				}

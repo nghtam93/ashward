@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $('body').addClass('modal-open')
+    // $('body').addClass('modal-open')
     $(window).on("load", function () {
       $('.loading-page__logo').fadeOut();
       $('.loading-page').delay(350).fadeOut('slow');
@@ -112,6 +112,26 @@ $(document).ready(function(){
       console.log($('.nav-roadmap li:nth-child('+index2+') .nav-link').html())
       $('.nav-roadmap li:nth-child('+index2+') .nav-link').click()
     });
+
+    // End home page
+
+
+    // check checkbox checked enable button
+    function checkDisableButton() {
+        $(".js-attr-disable").each(function () {
+          let checkBox = $(this).find(".js-attr-checkbox");
+          let btn = $(this).find(".js-attr-button");
+          checkBox.on("click", function () {
+            console.log(1)
+            if ($(this).is(":checked")) {
+              $(btn).removeAttr("disabled").removeClass("-disabled");
+            } else {
+              $(btn).attr("disabled", "disabled").addClass("-disabled");
+            }
+          });
+        });
+    }
+    checkDisableButton();
 });
 
 
