@@ -222,13 +222,23 @@ position: relative;
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+    transition: all .5s;
     &:disabled{
         opacity: 0.4;
+    }
+    &:hover{
+        background-color: #c3c324;
+        border-color: #c3c324;
     }
     &.-s2{
         color: #C4C4C4;
         background: transparent;
         border-color:#969696;
+        &:hover{
+            background-color: #c3c324;
+            border-color: #c3c324;
+            color: #fff;
+        }
     }
     @media (max-width:575px){
         min-width: 140px;
