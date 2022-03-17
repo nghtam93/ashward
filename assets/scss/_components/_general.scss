@@ -99,9 +99,9 @@
 // STAR ANIMATION
 
 @function multiple-box-shadow($n) {
-  $value: "#{random(2500)}px #{random(2500)}px #ecf0ee";
+  $value: "#{random(3150)}px #{random(3150)}px #ecf0ee";
   @for $i from 2 through $n {
-    $value: "#{$value} , #{random(2500)}px #{random(2500)}px #ecf0ee";
+    $value: "#{$value} , #{random(3150)}px #{random(3150)}px #ecf0ee";
   }
 
   @return unquote($value);
@@ -185,7 +185,32 @@ $shadows-big: multiple-box-shadow(100);
             border:2px solid #A8A81C;background-color:#A8A81C;
         }
     }
-
-
 }
 
+
+/**/
+.modal.-staking{
+    background: #22171B;
+    .modal-dialog {
+        max-width: 100%;
+    }
+    .modal-content{
+        background: #22171B;
+        border: transparent;
+    }
+    .modal-body {
+        width: 100%;
+        max-width:800px;
+        margin: 0 auto;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    .btn-close {
+        background-color: #fff;
+        opacity: 1;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+}
