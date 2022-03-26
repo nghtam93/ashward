@@ -49,6 +49,24 @@
     <div class="wrapper">
 
       <div class="wrap__page -market">
+
+          <div class="market__mb d-md-none">
+            <div class="container">
+              <div class="d-flex align-items-center justify-content-between">
+                <button class="btn-filter -filter dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Heroes</button>
+                <ul class="dropdown-menu dropdown-menu-start dropdown-menu-dark">
+                  <li class="active"><a href="#" class="dropdown-item">Heroes</a></li>
+                  <li class=""><a href="#" class="dropdown-item">Afon</a></li>
+                  <li class=""><a href="#" class="dropdown-item">Hefina</a></li>
+                  <li class=""><a href="#" class="dropdown-item">Idris</a></li>
+                  <li class=""><a href="#" class="dropdown-item">Macsen</a></li>
+                  <li class=""><a href="#" class="dropdown-item">...</a></li>
+                </ul>
+                <div class="btn-filter js-widget--toggle">Filter</div>
+              </div>
+            </div>
+          </div>
+
           <div class="market__nav mb-4">
             <ul class="nav nav-custom justify-content-center">
               <li class="nav-item">
@@ -78,36 +96,55 @@
                       </div>
                     </div>
                     <div class="market__sidebar__content">
+                      <div class="market__widget market__search d-md-none">
+                        <div class="market__search__content">
+                          <input type="text" name="s" class="market__search__field form-control" placeholder="Search" autocomplete="off">
+                          <button class="market__search__btn"></button>
+                        </div>
+                      </div>
 
                       <div class="market__widget -checkbox">
-                        <div class="market__widget__header d-flex align-items-center">
-                          <div class="market__widget__title">Class</div>
-                          <div class="market__widget__reset ms-auto">Reset</div>
+                        <div class="market__widget__header -collapse d-flex align-items-center">
+                          <a class="market__widget__title" data-bs-toggle="collapse" href="#market-widget--collapse01" role="button" aria-expanded="true" aria-controls="market-widget--collapse01">Class</a>
+                          <div class="market__widget__reset ms-auto d-none d-lg-block">Reset</div>
                         </div>
-                        <div class="market__widget__content">
+
+                        <div id="market-widget--collapse01" class="market__widget__content multi-collapse collapse show">
                           <ul class="js-checkbox-list">
                             <li>
                               <label class="checkbox__item">
-                                <input type="checkbox" name="cate" value="" class="js-checkall"><span class="checkmark"></span>
+                                <input type="checkbox" name="cate" value="" class=" js-checkall"><span class="checkmark"></span>
                                 <span class="-label">All class</span>
                               </label>
                             </li>
                             <li>
                               <label class="checkbox__item">
                                 <input type="checkbox" name="cate" value="" class="" checked><span class="checkmark"></span>
-                                <span class="-label">Melee</span>
+                                <span class="-label">Common</span>
                               </label>
                             </li>
                             <li>
                               <label class="checkbox__item">
                                 <input type="checkbox" name="cate" value="" class="" checked><span class="checkmark"></span>
-                                <span class="-label">Ranged</span>
+                                <span class="-label">Rare</span>
                               </label>
                             </li>
                             <li>
                               <label class="checkbox__item">
                                 <input type="checkbox" name="cate" value="" class="" checked><span class="checkmark"></span>
-                                <span class="-label">Mage</span>
+                                <span class="-label">Epic</span>
+                              </label>
+                            </li>
+                            <li>
+                              <label class="checkbox__item">
+                                <input type="checkbox" name="cate" value="" class=""><span class="checkmark"></span>
+                                <span class="-label">Legendary</span>
+                              </label>
+                            </li>
+                            <li>
+                              <label class="checkbox__item">
+                                <input type="checkbox" name="cate" value="" class=""><span class="checkmark"></span>
+                                <span class="-label">Mythical</span>
                               </label>
                             </li>
                           </ul>
@@ -115,11 +152,11 @@
                       </div>
 
                       <div class="market__widget -checkbox">
-                        <div class="market__widget__header d-flex align-items-center">
-                          <div class="market__widget__title">rarity</div>
-                          <div class="market__widget__reset ms-auto">Reset</div>
+                        <div class="market__widget__header -collapse d-flex align-items-center">
+                           <a class="market__widget__title" data-bs-toggle="collapse" href="#market-widget--collapse01" role="button" aria-expanded="true" aria-controls="market-widget--collapse01">Grade</a>
+                          <div class="market__widget__reset ms-auto d-none d-lg-block">Reset</div>
                         </div>
-                        <div class="market__widget__content">
+                        <div id="market-widget--collapse02" class="market__widget__content multi-collapse collapse show">
                           <ul class="js-checkbox-list">
                             <li>
                               <label class="checkbox__item">
@@ -190,15 +227,20 @@
                 </div>
                 <div class="col-12 col--right">
                   <div class="px-md-4">
-                    <div class="market__mb d-flex justify-content-between d-md-none">
-                      <div class="btn-filter js-widget--toggle">Filter</div>
-                    </div>
-
                     <div class="market__content__top d-flex align-items-center">
-                      <div class="el__order__total">
-                        <span class="d-none d-xl-block">Total: 548,435 results</span>
-                        <span class="d-xl-none">548,435 total</span>
+
+                      <div class="d-none d-md-block">
+                        <button class="btn__sortby dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Heroes</button>
+                        <ul class="dropdown-menu dropdown-menu-start dropdown-menu-dark">
+                          <li class="active"><a href="#" class="dropdown-item">Heroes</a></li>
+                          <li class=""><a href="#" class="dropdown-item">Afon</a></li>
+                          <li class=""><a href="#" class="dropdown-item">Hefina</a></li>
+                          <li class=""><a href="#" class="dropdown-item">Idris</a></li>
+                          <li class=""><a href="#" class="dropdown-item">Macsen</a></li>
+                          <li class=""><a href="#" class="dropdown-item">...</a></li>
+                        </ul>
                       </div>
+
                       <div class="ms-auto">
 
                         <div class="d-flex align-items-center">
@@ -218,7 +260,7 @@
 
                       </div>
                     </div>
-                    <div class="row mb-4 justify-content-center">
+                    <div class="row gx-3 gx-sm-4 mb-4 justify-content-center">
 
                       <div class="el__col col">
                         <div class="market__item ef--shine">
@@ -768,9 +810,9 @@
 
                     </div>
 
-                    <nav class="navigation paging-navigation d-md-flex align-items-center" role="navigation">
-                      <div class="el__label text-center text-md-start mb-3 mb-md-0">Showing 1 to 25 of 100 entries</div>
-                      <div class="pagination loop-pagination ms-auto justify-content-center justify-content-md-start">
+                    <nav class="navigation paging-navigation d-lg-flex align-items-center" role="navigation">
+                      <div class="el__label text-center text-lg-start mb-3 mb-lg-0">Showing 1 to 25 of 100 entries</div>
+                      <div class="pagination loop-pagination ms-auto justify-content-center justify-content-lg-start">
                           <a class="prev page-numbers" href=""><i class="icon-arrow-prev"></i></a>
                           <span aria-current="page" class="page-numbers current">1</span>
                           <a class="page-numbers" href="">2</a>
@@ -797,11 +839,15 @@
         <div class="nav__mobile__close icon-close js-menu__close"></div>
           <div class="nav__mobile__content">
             <ul class="nav__mobile--ul mb-4">
-              <li class="menu-item"><a href="index.html">HOME</a></li>
-              <li class="menu-item"><a href="https://doc.ashward.io/">LITEPAPER</a></li>
-              <li class="menu-item"><a href="https://events.ashward.io/">EVENTS</a></li>
-              <li class="menu-item"><a href="#">MARKETPLACE</a></li>
+              <li class="menu-item"><a href="#">Hero</a></li>
+              <li class="menu-item"><a href="#">events box</a></li>
+              <li class="menu-item"><a href="#">Pets</a></li>
+              <li class="menu-item"><a href="#">items</a></li>
             </ul>
+
+            <div class="px-4">
+              <a href="" class="header__btn btn">Connect wallet</a>
+            </div>
           </div>
       </nav>
 

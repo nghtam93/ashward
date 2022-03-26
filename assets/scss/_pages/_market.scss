@@ -1,4 +1,9 @@
 .market{
+
+	&__mb{
+		padding: 8px 0;
+	    background: #220303;
+	}
 	&__nav{
 		background-color: #381D24;
 		border-bottom: 2px solid #512B35;
@@ -50,12 +55,35 @@
 		margin-bottom: 28px;
 		&__header{
 			margin-bottom: 16px;
+			@media (max-width: 767px){
+				&.-collapse .market__widget__title{
+					&::after {
+					    content: "\e908";
+					    font-family: icomoon;
+					    position: absolute;
+					    top: 0;
+					    right: 0;
+					    color: #fff;
+					    font-size: 8px;
+					    transition: all .3s;
+					}
+					&.collapsed::after {
+					    transform: rotate(180deg);
+					}
+				}
+			}
 		}
 		&__title{
+			display: block;
+    		width: 100%;
+			position: relative;
 			font-size: 18px;
 			line-height: 18px;
 			text-transform: uppercase;
 			color: #FFFFFF;
+			&:hover ,&:focus{
+				color: #FFFFFF;
+			}
 		}
 		&__reset{
 			font-size: 16px;
@@ -89,6 +117,46 @@
     				box-shadow: 0 0 0 2px rgba(255, 223, 9, .1);
 				}
 			}
+		}
+	}
+	&__search{
+		&__content {
+		    position: relative;
+		}
+		&__field{
+			background: #4A2A32;
+		    border: 0;
+		    border-radius: 4px;
+		    font-size: 20px;
+			line-height: 20px;
+
+		    padding: 14px 14px 14px 44px;
+		    color: #fff;
+		    &::placeholder{
+		    	color: #fff;
+		    }
+		    &:focus{
+		    	background: transparent;
+		    	color: #fff;
+		    }
+
+		}
+		&__btn {
+		    position: absolute;
+		    top: 10px;
+		    left: 10px;
+		    width: 24px;
+		    height: 24px;
+		    border: 0;
+	    	background: transparent;
+		    &::before {
+		    	content: "\e909";
+			    width: 24px;
+			    height: 24px;
+			    font-family: icomoon;
+			    font-size: 23px;
+			    color: #fff;
+		    }
 		}
 	}
 	&__content{
@@ -240,6 +308,7 @@
 			}
 			.col--right{
 				width: 100%;
+				padding-top: 0;
 				padding-bottom: 50px;
 			}
 		}

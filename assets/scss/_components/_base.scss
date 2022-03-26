@@ -206,6 +206,20 @@ position: relative;
             top: 2px;
         }
     }
+    &-purchase{
+        min-width: 170px;
+        display: inline-block;
+        padding: 13px 24px;
+        background: #DCB52C;
+        border-radius: 6px;
+        border: 0;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+        &:hover{
+            background: #9bbb44;
+        }
+    }
     @media (max-width:991px){
 
     }
@@ -253,6 +267,53 @@ position: relative;
     padding: 0;
 }
 
+/**/
+.modal{
+    &.-buy{
+        .modal-content{
+            font-size: 18px;
+            line-height: 28px;
+            color: #BDBDBD;
+            padding: 32px;
+            background-color: #381D24;
+        }
+        .modal-header{
+            padding: 0;
+            margin-bottom: 20px;
+            border: 0;
+        }
+        .modal-title{
+            font-size: 44px;
+            line-height: 44px;
+            color: #FFFFFF;
+        }
+        .modal-body{
+            padding: 0;
+        }
+        .el__text{
+            font-size: 20px;
+            line-height: 28px;
+        }
+        .el__price{
+            padding: 13px 24px;
+            background: #3B2223;
+            border-radius: 4px;
+        }
+
+        .modal-footer{
+            padding: 0;
+            border: 0;
+        }
+    }
+    @media (min-width: 576px){
+        &.-buy{
+            .modal-dialog {
+                max-width: 550px;
+                margin: 1.75rem auto;
+            }
+        }
+    }
+}
 
 // Fix iframe
 .videoWrapper{position:relative;padding-bottom:56.25%; /* 16:9 */height:0;}
@@ -565,7 +626,7 @@ position: relative;
         max-width: 924px;
     }
     .container-800{
-        max-width: 800px;
+        max-width: 824px;
     }
     .gx-lg-120{
         --bs-gutter-x: 120px;
