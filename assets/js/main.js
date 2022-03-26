@@ -28,8 +28,9 @@ $(document).ready(function(){
         }, 500);
     });
 
-
-    new WOW().init();
+    if($('body').hasClass( "home" )){
+        new WOW().init();
+    }
 
     //-------------------------------------------------
     // Menu
@@ -133,10 +134,34 @@ $(document).ready(function(){
     }
     checkDisableButton();
 
-    /**/
+    /*Page vesting*/
     $('.js-tr-toggle').click(function(e){
         $(this).next().toggle()
     })
+
+    /*PAge market*/
+    $('.js-widget--toggle').on("click",function(e) {
+        $('.market__sidebar').toggleClass('active')
+        $('body').toggleClass('filter-open')
+    })
+
+    $('.js-checkall').on("click",function(e) {
+      let checkbox = $(this).closest('ul').find('input[type="checkbox"]:not(.js-checkall)')
+      let stt = false
+      if($(this).is(":checked") == true) stt = true;
+      checkbox.each(function() { this.checked = stt; });
+    })
+
+    $('.js-checkbox-list').change(function(e) {
+      let parent_checkall = $(this).closest('.js-checkbox-list').find('.js-checkall')
+      let checkbox = $(this).closest('ul').find('input[type="checkbox"]:not(.js-checkall)')
+      checkbox.each(function() {
+        if(this.checked == false){
+          parent_checkall.prop('checked', false)
+        }
+      });
+    })
+    /*end checkbox*/
 });
 
 

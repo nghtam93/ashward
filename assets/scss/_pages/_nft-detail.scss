@@ -1,0 +1,31 @@
+.nft__single{
+	&__thumb{
+		margin-bottom: 32px;
+		.dnfix__thumb {
+		    padding-top: 145%;
+		}
+	}
+	&__note{
+		position: relative;
+		padding: 12px;
+		background: #2F151C;
+		border: 1px solid #56313B;
+		border-radius: 4px;
+		font-size: 14px;
+		color: #DCB52C;
+		margin-bottom: 24px;
+		p{
+			position: relative;
+			padding-left: 24px;
+			&:before{
+				content: "\e907";
+				font-family: icomoon;
+				position: absolute;
+				top: 0;
+				left: 0;
+				font-size: 16px;
+			}
+		}
+
+	}
+}

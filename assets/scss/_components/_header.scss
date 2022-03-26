@@ -20,6 +20,11 @@
 		// background: rgba(15, 1, 69, 0.9);
 		// animation:stuckMoveDown .6s;
 	}
+	&.-v2{
+		.header__btn {
+		    background: #9BBB44;
+		}
+	}
 
 	.logo{
 		margin-right: 22px;

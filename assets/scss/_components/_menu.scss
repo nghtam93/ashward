@@ -5,8 +5,6 @@
 */
 $font-color: #fff;
 
-
-
 .main__nav{
     position:relative;
     max-width: 1400px;
@@ -26,6 +24,22 @@ $font-color: #fff;
         color: $font-color;
         transition: color 0.3s;
     }
+    &.-v2{
+        font-size: 20px;
+        .el__menu{
+            &>li{
+                &.active{
+                    >a{
+                        background-color: #381D24;
+                        color: #fff;
+                    }
+                }
+                >a{
+                    padding:16px 16px;
+                }
+            }
+        }
+    }
     .el__menu{
         width: 100%;
         display: flex;
@@ -39,7 +53,7 @@ $font-color: #fff;
         }
         &>li{
             position:relative;display:inline-block;
-            margin: 0 16px;
+            // margin: 0 16px;
             &.menu-item-has-children{
                 &>a:after {
                     content: "\e906";
@@ -53,7 +67,7 @@ $font-color: #fff;
             }
             >a{
                 position: relative;
-                padding: 30px 0;
+                padding: 30px 16px;
                 display: block;
                 text-transform: uppercase;
                 // &:before{

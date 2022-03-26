@@ -36,6 +36,9 @@ body {
     background: #22171B;
     letter-spacing: 0.01em;
     --header-height:86px;
+    &:not(.home){
+        background-color: #381D24;
+    }
 }
 
 a, a:hover {
@@ -519,9 +522,17 @@ position: relative;
         flex: 0 0 auto;
         width: 20%;
     }
+    .col-md-36{
+        flex: 0 0 auto;
+        width: 36%;
+    }
     .col-md-46{
         flex: 0 0 auto;
         width: 46%;
+    }
+    .col-md-64{
+        flex: 0 0 auto;
+        width: 64%;
     }
 
     .container-580{
@@ -563,7 +574,7 @@ position: relative;
 }
 @media (min-width: 1300px){
     .container-1200{
-        max-width: 1200px;
+        max-width: 1224px;
     }
 }
 @media (min-width: 1400px){
