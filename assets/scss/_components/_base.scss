@@ -79,7 +79,7 @@ strong{
     font-weight: 700;
 }
 hr{
-    background-color: #1D3830;
+    background-color: #512B35;
     opacity: 1;
 }
 .ratio > * {
@@ -322,6 +322,20 @@ position: relative;
             background: #9bbb44;
         }
     }
+    &-change{
+        font-size: 16px;
+        line-height: 16px;
+        border-radius: 4px;
+        background-color: #9BBB44;
+        border-color: #9BBB44;
+        &:hover{
+            background-color: #dcb52c;
+            border-color: #dcb52c;
+            transform:none;
+            filter: none;
+        }
+    }
+
     @media (max-width:991px){
 
     }
@@ -385,7 +399,6 @@ position: relative;
         border-color: #F0353D;
     }
 }
-
 /**/
 .modal{
     &.-buy{
@@ -415,6 +428,11 @@ position: relative;
         }
         .el__input{
             position: relative;
+            &.-full{
+                input{
+                    padding: 18px 24px;
+                }
+            }
             input{
                 color: #BDBDBD;
                 font-size: 18px;
@@ -443,7 +461,10 @@ position: relative;
             background: #3B2223;
             border-radius: 4px;
         }
-
+        .form-check {
+            font-size: 16px;
+            line-height: 20px;
+        }
         .modal-footer{
             padding: 0;
             border: 0;
@@ -475,6 +496,28 @@ position: relative;
     }
 }
 
+.form-switch{
+    display: flex;
+    align-items:center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #BDBDBD;
+
+    .form-check-input {
+        margin-top: 0;
+        margin-right: 20px;
+        width: 50px;
+        height: 30px;
+        background-color: #E5E5EA;
+        border-color: #E5E5EA;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+        background-size: 30px;
+        &:checked {
+            background-color: #34C759;
+            border-color: #34C759;
+        }
+    }
+}
 
 // Fix iframe
 .videoWrapper{position:relative;padding-bottom:56.25%; /* 16:9 */height:0;}
@@ -796,6 +839,9 @@ position: relative;
 }
 @media (min-width: 1300px){
     .container-1200{
+        max-width: 1224px;
+    }
+    .container-1300{
         max-width: 1224px;
     }
 }

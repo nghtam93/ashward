@@ -390,6 +390,27 @@ $shadows-big: multiple-box-shadow(100);
     }
 }
 
+/**/
+.input-style{
+    color: #BDBDBD;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 14px 16px;
+    background: #3B2223;
+    border: 1px solid #512B35;
+    border-radius: 4px;
+    &::placeholder{
+        color: #BDBDBD;
+    }
+    &:focus{
+        color: #BDBDBD;
+        outline: 0;
+        border-color: #dcb52c;
+        box-shadow: none;
+        background-color: transparent;
+    }
+}
+
 
 @media (max-width: 1199px){
     .btn__sortby {
