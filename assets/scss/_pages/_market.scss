@@ -23,6 +23,7 @@
 
 		.nav-link{
 			padding: 16px 0 6px;
+			text-transform: uppercase;
 		}
 	}
 
@@ -280,7 +281,16 @@
 		}
 	}
 	@media (max-width: 767px){
-
+		&__nav{
+			.nav-custom.-long{
+				overflow: auto;
+				flex-wrap: nowrap;
+				padding: 0 0.75rem 2px;
+				&::-webkit-scrollbar {
+				  display: none;
+				}
+			}
+		}
 		&__sidebar {
 			position: fixed;
 			pointer-events:none;

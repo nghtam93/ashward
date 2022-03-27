@@ -122,6 +122,9 @@ hr{
 .color--brown{
     color: #9C5C5C!important;
 }
+.mw-0{
+    min-width: 0!important;
+}
 .maxwidth-380{
     max-width: 380px;
     margin: 0 auto;
@@ -173,6 +176,69 @@ position: relative;
     cursor: pointer;
 }
 
+.ic-hourglass {
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    background: url(../img/hourglass.svg) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.ic-sword {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/sword.svg) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.ic-cup {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/cup.svg) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.ic-heart {
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    background: url(../img/heart.svg) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.ic-key {
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+    background: url(../img/key.svg) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.ic-mana {
+    display: inline-block;
+    width: 13px;
+    height: 20px;
+    background: url(../img/mana.svg) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.ic-star {
+    display: inline-block;
+    width: 19px;
+    height: 20px;
+    background: url(../img/star.svg) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+
 
 
 
@@ -201,15 +267,19 @@ position: relative;
         transform: translateY(-5px);
         -webkit-filter:brightness(1.25);filter:brightness(1.25)
     }
-    &-primary:hover {
-        color: #fff;
-        background-color: #6a822a;
-        border-color: #6a822a;
+    &-primary{
+        text-transform: initial;
+        &:hover {
+            color: #fff;
+            background-color: #6a822a;
+            border-color: #6a822a;
+        }
     }
     &-secondary{
         background: transparent;
         color: #DCB52C;
         border: 1px solid #512B35;
+        text-transform: initial;
         &:hover{
             color: #fff;
             border-color: #DC972B;
@@ -222,7 +292,7 @@ position: relative;
     }
     &.-medium{
         min-width: 228px;
-        padding: 11px 18px;
+        padding: 11px 10px;
         font-size: 20px;
         line-height: 26px;
         border-radius: 8px;
@@ -343,6 +413,31 @@ position: relative;
             font-size: 20px;
             line-height: 28px;
         }
+        .el__input{
+            position: relative;
+            input{
+                color: #BDBDBD;
+                font-size: 18px;
+                line-height: 20px;
+                padding: 18px 110px 18px 24px;
+                background: #3B2223;
+                border: 1px solid #512B35;
+                border-radius: 4px;
+                &::placeholder{
+                    color: #BDBDBD;
+                }
+                &:focus{
+                    box-shadow: 0 0 0 1px #dcb52c;
+                }
+            }
+            &--prefix{
+                position: absolute;
+                top: 12px;
+                right: 24px;
+                display: flex;
+                align-items: center;
+            }
+        }
         .el__price{
             padding: 13px 24px;
             background: #3B2223;
@@ -363,6 +458,23 @@ position: relative;
         }
     }
 }
+
+.form-check{
+
+    label{
+        cursor: pointer;
+    }
+    &-input[type=checkbox] {
+        background-color: transparent;
+        border: 2px solid #BDBDBD;
+        &:checked{
+            color: #fff;
+            background-color: #dc972b;
+            border-color: #dc972b;
+        }
+    }
+}
+
 
 // Fix iframe
 .videoWrapper{position:relative;padding-bottom:56.25%; /* 16:9 */height:0;}
