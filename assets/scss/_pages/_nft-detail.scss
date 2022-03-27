@@ -14,7 +14,7 @@
         text-align: center;
         color: #BDBDBD;
         transition: background .5s, color .5s;
-        &.active, &:hover{
+        &.active{
             background: #2D171D;
             color: #DCB52C;
         }
