@@ -23,6 +23,7 @@
 	&.-v2{
 		.header__btn {
 		    background: #9BBB44;
+		    border-color: #9BBB44;
 		}
 	}
 
@@ -30,6 +31,10 @@
 		margin-right: 22px;
 		transition: opacity .5s;
 		animation: lightAnimation 1.5s ease-in-out infinite;
+		a{
+			display: flex;
+			align-items: center;
+		}
 		img{
 			width: auto;
 			max-height: 40px;
@@ -62,8 +67,6 @@
 		background: #A8A81C;
 	}
 
-
-
 	@media (max-width: 1399px){
 
 
@@ -75,10 +78,22 @@
 		padding:10px 0;
 		&.-v2{
 			padding: 0;
+			background: #220303;
 		}
 	}
 	@media (max-width: 991px){
-
+		&.-v2{
+			padding: 10px 0;
+		}
+		.logo img {
+		    max-height: 36px;
+		}
+		&__btn {
+		    font-size: 16px;
+		    line-height: 16px;
+		    padding: 6px 12px;
+		    border-radius: 4px;
+		}
 	}
 
 	@media (max-width: 575px){
