@@ -305,6 +305,11 @@
 			.el__email input.-stt {
 			    padding-right: 60px;
 			}
+
+			.el__email--stt i {
+			    font-size: 20px;
+			    margin-right: 0;
+			}
 		}
 		&__table {
 		    background: #4A2A32;
@@ -314,7 +319,9 @@
 			.td__name{
 				padding-left: 0;
 			}
+			.tr-toggle td:first-child {
+			    padding-left: 52px;
+			}
 		}
-
 	}
 }
