@@ -135,8 +135,8 @@ $(document).ready(function(){
     checkDisableButton();
 
     /*Page vesting*/
-    $('.js-tr-toggle').click(function(e){
-        $(this).next().toggle()
+    $('.js-tr-toggle .td-toggle').click(function(e){
+        $(this).parent().next().toggle()
     })
 
     /*PAge market*/
@@ -162,6 +162,13 @@ $(document).ready(function(){
       });
     })
     /*end checkbox*/
+
+    /*PAge Wallet*/
+    // Tooltip page account
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
 });
 
 

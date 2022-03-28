@@ -2,7 +2,7 @@
 
 	&__wrapper{
 		min-height: 100vh;
-		--sidebar-width: 212px;
+		--sidebar-width: 254px;
 		.col--left{
 			width: var(--sidebar-width);
 		}
@@ -61,8 +61,9 @@
 			    border-radius: 50%;
 			    line-height: 30px;
 			    font-size: 16px;
+			    cursor: pointer;
 			    &:hover{
-			    	background-color: red;
+			    	background-color: #9bbb44;
 			    }
 			}
 			&__title{
@@ -80,8 +81,8 @@
 					max-width: 110px;
 				}
 				i{
-					width: 20px;
-    				height: 20px;
+					font-size: 20px;
+					color: #BDBDBD;
 				}
 			}
 		}
@@ -212,8 +213,22 @@
 				}
 			}
 		}
+		.tr-toggle {
+		    display: none;
+		    td{
+		    	&:first-child{
+		    		padding-left: 64px;
+		    	}
+		    }
+		}
 		td{
 			vertical-align: middle;
+		}
+		.td__name {
+		    width: 260px;
+		}
+		.td__claimable {
+		    width: 170px;
 		}
 		.td__id{
 			width: 80px;
@@ -231,14 +246,37 @@
 				object-fit: cover;
 			}
 		}
+		.td__stt {
+		    text-align: right;
+		}
 		.el--claim{
 			text-decoration-line: underline;
 			color: #9BBB44;
 			background-color: transparent;
 			border:0;
+			&.-pending{
+				color: #9C5C5C;
+				text-decoration-line: none;
+			}
+		}
+	}
+	@media (max-width: 1399px){
+		&__wrapper {
+		    --sidebar-width: 220px;
 		}
 	}
 
+	@media (max-width: 991px){
+		&__box__item{
+			margin-bottom: 16px;
+		}
+		&__table{
+			.td__claimable, .td__id, .td__tax{
+				display: none;
+			}
+		}
+
+	}
 	@media (max-width: 767px){
 		&__wrapper{
 			--sidebar-width: 100%;
@@ -259,13 +297,22 @@
 			}
 		}
 	}
-	@media (max-width: 767px){
+	@media (max-width: 575px){
 		&__content{
 			.btn-change {
 			    min-width: 72px;
 			}
 			.el__email input.-stt {
 			    padding-right: 60px;
+			}
+		}
+		&__table {
+		    background: #4A2A32;
+		    .table > thead {
+			    display: none;
+			}
+			.td__name{
+				padding-left: 0;
 			}
 		}
 

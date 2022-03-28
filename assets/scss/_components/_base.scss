@@ -470,6 +470,12 @@ position: relative;
             border: 0;
         }
     }
+    @media (max-width: 575px){
+        &.-buy .modal-title {
+            font-size: 28px;
+            line-height: 44px;
+        }
+    }
     @media (min-width: 576px){
         &.-buy{
             .modal-dialog {
@@ -478,6 +484,7 @@ position: relative;
             }
         }
     }
+
 }
 
 .form-check{
@@ -837,11 +844,13 @@ position: relative;
     }
 
 }
+@media (min-width:1300px) and (max-width:1399px){
+    .container-1300 {
+        max-width: 1290px;
+    }
+}
 @media (min-width: 1300px){
     .container-1200{
-        max-width: 1224px;
-    }
-    .container-1300{
         max-width: 1224px;
     }
 }
@@ -849,7 +858,6 @@ position: relative;
     .container-1300{
         max-width: 1324px;
     }
-
 }
 
 @media (min-width: 1600px){
