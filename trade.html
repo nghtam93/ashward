@@ -34,7 +34,16 @@
           </nav>
 
           <div class="ms-auto">
-            <a href="" class="header__btn btn">Connect wallet</a>
+            <a href="" class="header__btn btn d-none">Connect wallet</a>
+
+            <div class="">
+              <button class="btn__label dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"><i class="icon-user"></i> 0x...E7ea</button>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
+                <li class=""><a href="profile.html" class="dropdown-item">Profile</a></li>
+                <li class=""><a href="#" class="dropdown-item">Disconnect</a></li>
+              </ul>
+            </div>
+
           </div>
 
           <div class="menu-mb__btn ms-3" data-id="menu__mobile">
@@ -96,12 +105,7 @@
                       </div>
                     </div>
                     <div class="market__sidebar__content">
-                      <div class="market__widget market__search d-md-none">
-                        <div class="market__search__content">
-                          <input type="text" name="s" class="market__search__field form-control" placeholder="Search" autocomplete="off">
-                          <button class="market__search__btn"></button>
-                        </div>
-                      </div>
+
 
                       <div class="market__widget -checkbox">
                         <div class="market__widget__header -collapse d-flex align-items-center">

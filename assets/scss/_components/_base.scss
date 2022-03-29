@@ -378,6 +378,16 @@ position: relative;
     border: 0;
     padding: 0;
 }
+
+.btn__label{
+    background-color: transparent;
+    border: 0;
+    color: #e2d216;
+    &::after{
+        display: none;
+    }
+}
+
 /**/
 .alert{
     font-size: 14px;
