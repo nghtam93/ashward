@@ -323,30 +323,242 @@ $shadows-big: multiple-box-shadow(100);
 }
 
 /**/
-.modal.-staking{
-    background: #22171B;
-    .modal-dialog {
-        max-width: 100%;
-    }
-    .modal-content{
+.modal{
+    &.-staking{
         background: #22171B;
-        border: transparent;
+        .modal-dialog {
+            max-width: 100%;
+        }
+        .modal-content{
+            background: #22171B;
+            border: transparent;
+        }
+        .modal-body {
+            width: 100%;
+            max-width:800px;
+            margin: 0 auto;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        .btn-close {
+            background-color: #fff;
+            opacity: 1;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            z-index: 1;
+        }
     }
-    .modal-body {
-        width: 100%;
-        max-width:800px;
-        margin: 0 auto;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-    }
-    .btn-close {
-        background-color: #fff;
-        opacity: 1;
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        z-index: 1;
+
+    &.-stake{
+        font-family: 'Roboto Slab';
+        .modal-dialog {
+            max-width: 380px;
+        }
+        .modal-content{
+            position: relative;
+            padding: 0 16px 8px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: #EEEEEE;
+            background-color: #513338;
+            background-image: url(../img/staking-modal-border.png);
+            background-size: 100% 100%;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: -16px;
+                left: 0;
+                width: 100%;
+                height: 50px;
+                background-image: url(../img/staking-modal-border-top.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: top;
+
+                pointer-events: none;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: -16px;
+                left: 0;
+                width: 100%;
+                height: 50px;
+                background-image: url(../img/staking-modal-border-bottom.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: bottom;
+
+                pointer-events: none;
+            }
+            >*{
+                position: relative;
+                z-index: 1;
+            }
+
+            ul{
+                li{
+                    position: relative;
+                    padding-left: 15px;
+                    margin-bottom: 4px;
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        top: 9px;
+                        left: 0;
+                        width: 4px;
+                        height: 4px;
+                        background-color: #B29898;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+        .modal-header {
+            padding: 0;
+            margin-bottom: 20px;
+            border: 0;
+        }
+        .modal-title{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 0.01em;
+            color: #FFFFFF;
+        }
+        .modal-stt{
+            i{
+                display: block;
+                font-size: 26px;
+                color: #9BBB44;
+                margin-bottom: 10px;
+            }
+            &__text{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 26px;
+                color: #9BBB44;
+                margin-bottom: 4px;
+            }
+        }
+        .modal-body{
+            padding: 0;
+            p+p{
+                margin-top: 4px;
+            }
+        }
+        .el__list{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            color: #EEEEEE;
+            li{
+                display: flex;
+                &:not(:last-child){
+                 margin-bottom: 8px;
+                }
+            }
+            .li__label{
+                color: #966868;
+            }
+            .li__value{
+                margin-left: auto;
+                text-align: right;
+            }
+        }
+        .el__text{
+            color: #B29898;
+        }
+        .el__input{
+            position: relative;
+            &.-full{
+                input{
+                    padding: 18px 24px;
+                }
+            }
+            input{
+                font-weight: 400;
+                font-size: 14px;
+                color: #BDBDBD;
+                padding: 12px 110px 12px 24px;
+                background: #3B2223;
+                border: 1px solid #512B35;
+                border-radius: 4px;
+                line-height: normal;
+                &::placeholder{
+                    color: #BDBDBD;
+                }
+                &:focus{
+                    box-shadow: 0 0 0 1px #dcb52c;
+                }
+            }
+            &--unit{
+                position: absolute;
+                top: 12px;
+                right: 78px;
+                display: flex;
+                align-items: center;
+                font-weight: 400;
+                font-size: 14px;
+                color: #EEEEEE;
+            }
+            &--prefix{
+                position: absolute;
+                top: 12px;
+                right: 16px;
+                display: flex;
+                align-items: center;
+                font-weight: 400;
+                font-size: 14px;
+                color: #DCB52C;
+                padding-left: 16px;
+                border-left: 1px solid #512B35;
+            }
+        }
+        hr{
+            background-color: #966868;
+        }
+        .form-check{
+            padding-left: 30px;
+            color: #BDBDBD;
+            &-input {
+                width: 18px;
+                height: 18px;
+                margin-left: -30px;
+            }
+        }
+        .alert{
+            font-size: 12px;
+            strong{
+                font-size: 14px;
+            }
+        }
+
+        .el__item{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.4;
+            color: #B29898;
+            &__title{
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 18px;
+                color: #EEEEEE;
+                margin-bottom: 12px;
+            }
+            &:not(:last-child){
+                margin-bottom: 32px;
+            }
+        }
+
+        .modal-actions{
+            padding-top: 16px;
+        }
     }
 }
 /**/

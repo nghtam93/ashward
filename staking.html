@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Ashward</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="images/favicon.png" />
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- flickity -->
+    <link rel="stylesheet" type="text/css" href="assets/libs/flickity/flickity.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+
+
+    <link href="assets/css/main.css" rel="stylesheet">
+  </head>
+  <body class="">
+
+    <div class="header__top">
+      <div class="container d-flex align-items-center justify-content-center">
+        <div class="d-flex align-items-center">
+          <div class="header__top__address text-truncate me-2">BEP-20: To be announced</div> <!-- <i class="ic-copy"></i> -->
+        </div>
+      </div>
+    </div>
+    <header class="header">
+      <div class="container container-1200 d-flex align-items-center">
+          <div class="logo">
+              <a href="index.html">
+                <img src="images/logo.png" width="198" height="152" alt="Logo">
+              </a>
+          </div>
+
+          <nav class="main__nav">
+            <ul class="el__menu">
+              <li class="menu-item active"><a href="index.html">HOME</a></li>
+              <li class="menu-item"><a href="https://doc.ashward.io/">LITEPAPER</a></li>
+              <li class="menu-item"><a href="https://events.ashward.io/">EVENTS</a></li>
+              <li class="menu-item"><a href="trade.html">MARKETPLACE</a></li>
+            </ul>
+          </nav>
+
+          <div class="ms-auto">
+            <a href="" class="header__btn btn">Connect wallet</a>
+          </div>
+
+          <div class="menu-mb__btn ms-3" data-id="menu__mobile">
+            <span class="iconz-bar"></span>
+            <span class="iconz-bar"></span>
+            <span class="iconz-bar"></span>
+          </div>
+
+      </div>
+    </header>
+
+    <div class="wrapper staking">
+
+      <div class="staking__page">
+        <div class="container container-800">
+          <div class="el__header text-center mb-5 pb-3">
+            <h1 class="el__title">Staking</h1>
+
+            <div class="el__header__note" data-bs-toggle="modal" data-bs-target="#noteModal">
+              <span class="icon-info-circle"></span>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 d-flex">
+              <div class="el__box">
+                <div class="el__box__header text-center">
+                  <h2 class="el__box__title">Afon</h2>
+                </div>
+                <div class="el__box__content">
+                  <div class="el__box__thumb">
+                    <div class="dnfix__thumb">
+                      <img src="images/staking/staking-item-01.png" alt="">
+                    </div>
+                  </div>
+
+                  <ul class="el__list">
+                    <li>
+                      <div class="li__label">Period</div>
+                      <div class="li__value">14 days</div>
+                    </li>
+                    <li>
+                      <div class="li__label">APY</div>
+                      <div class="li__value">912.5%</div>
+                    </li>
+                    <li>
+                      <div class="li__label">Min</div>
+                      <div class="li__value">500 ASC</div>
+                    </li>
+                    <li>
+                      <div class="li__label">Max</div>
+                      <div class="li__value">1,000 ASC</div>
+                    </li>
+                    <li>
+                      <div class="li__label">Pool</div>
+                      <div class="li__value">300,000 ASC</div>
+                    </li>
+                  </ul>
+
+                  <button class="btn-stake w-100 mb-3" data-bs-toggle="modal" data-bs-target="#stakeModal">Stake</button>
+
+                  <ul class="el__list">
+                    <li>
+                      <div class="li__label">My stakes</div>
+                      <div class="li__value">100 ASC</div>
+                    </li>
+                    <li>
+                      <div class="li__label">Profit</div>
+                      <div class="li__value">50 ASC</div>
+                    </li>
+                    <li>
+                      <div class="li__label"><a href="#" data-bs-toggle="modal" data-bs-target="#benefitsModal">Benefits</a></div>
+                      <div class="li__value">
+                        <p>1 gift box</p>
+                        <p>1 gift code</p>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <button class="btn-stake2 w-100">Harvest</button>
+
+                </div>
+
+
+              </div>
+            </div>
+            <div class="col-md-3 d-flex">
+              <div class="el__box">
+                <div class="el__box__header text-center">
+                  <h2 class="el__box__title">Macsen</h2>
+                </div>
+                <div class="el__box__content">
+                  <div class="el__box__thumb">
+                    <div class="dnfix__thumb">
+                      <img src="images/staking/staking-item-02.png" alt="">
+                    </div>
+                  </div>
+
+                  <ul class="el__list">
+                    <li>
+                      <div class="li__label">Period</div>
+                      <div class="li__value">21 days</div>
+                    </li>
+                    <li>
+                      <div class="li__label">APY</div>
+                      <div class="li__value">912.5%</div>
+                    </li>
+                    <li>
+                      <div class="li__label">Min</div>
+                      <div class="li__value">1,000 ASC</div>
+                    </li>
+                    <li>
+                      <div class="li__label">Max</div>
+                      <div class="li__value">2,000 ASC</div>
+                    </li>
+                    <li>
+                      <div class="li__label">Pool</div>
+                      <div class="li__value">300,000 ASC</div>
+                    </li>
+                  </ul>
+
+                  <button class="btn-stake w-100 mb-3" data-bs-toggle="modal" data-bs-target="#stakeModal">Stake</button>
+
+                  <ul class="el__list">
+                    <li>
+                      <div class="li__label">My stakes</div>
+                      <div class="li__value">100 ASC</div>
+                    </li>
+                    <li>
+                      <div class="li__label">Profit</div>
+                      <div class="li__value">50 ASC</div>
+                    </li>
+                    <li>
+                      <div class="li__label"><a href="#" data-bs-toggle="modal" data-bs-target="#benefitsModal">Benefits</a></div>
+                      <div class="li__value">
+                        <p>1 gift box</p>
+                        <p>1 gift code</p>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <button class="btn-stake2 w-100">Harvest</button>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex">
+              <div class="el__box">
+                <div class="el__box__header text-center">
+                  <h2 class="el__box__title -s2">Hefina</h2>
+                </div>
+                <div class="el__box__content">
+                  <div class="el__box__thumb">
+                    <div class="dnfix__thumb">
+                      <img src="images/staking/staking-item-03.png" alt="">
+                    </div>
+                  </div>
+
+                  <ul class="el__list">
+                    <li>
+                      <div class="li__label">Period</div>
+                      <div class="li__value">Unlimited</div>
+                    </li>
+                    <li>
+                      <div class="li__label">APY</div>
+                      <div class="li__value">365%</div>
+                    </li>
+                    <li>
+                      <div class="li__label">Min</div>
+                      <div class="li__value">200 ASC</div>
+                    </li>
+                    <li>
+                      <div class="li__label">Max</div>
+                      <div class="li__value">1,000 ASC</div>
+                    </li>
+                    <li>
+                      <div class="li__label">Pool</div>
+                      <div class="li__value">1,000,000 ASC</div>
+                    </li>
+                  </ul>
+
+                  <div class="el__box__text text-white d-flex align-items-center justify-content-center h-100">Pool limit reached</div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 d-flex">
+              <div class="el__box">
+                <div class="el__box__header text-center">
+                  <h2 class="el__box__title">Idris</h2>
+                </div>
+                <div class="el__box__content">
+                  <div class="el__box__thumb">
+                    <div class="dnfix__thumb">
+                      <img src="images/staking/staking-item-04.png" alt="">
+                    </div>
+                  </div>
+
+                  <div class="el__box__coming">
+                    <p>Coming soon</p>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <footer class="footer text-center">
+        <div class="container">
+
+
+          <div class="footer__item">
+            <header class="sc__header">
+              <h2 class="sc__header__title">Join us</h2>
+            </header>
+
+            <ul class="footer__socical pt-2 pt-md-1 justify-content-center">
+              <li><a href="https://www.youtube.com/c/AshWardGame" target="_blank"><i class="icon-youtube"></i></a></li>
+              <li><a href="https://t.me/AshWard_Official" target="_blank"><i class="icon-telegram"></i></a></li>
+              <li><a href="https://discord.com/invite/JVKv2HTpJR" target="_blank"><i class="icon-discord"></i></a></li>
+              <li><a href="https://medium.com/m/signin" target="_blank"><i class="icon-medium"></i></a></li>
+              <li><a href="https://github.com/ashward-game/ashward" target="_blank"><i class="icon-githab"></i></a></li>
+            </ul>
+          </div>
+
+          <div class="footer__item mb-4">
+            <h3 class="footer__title">CONTACT US</h3>
+            <p><a href="mailto:media@ashward.io">Email: media@ashward.io</a></p>
+          </div>
+
+          <div class="footer-copyright"><p>Copyright © 2022 Ashward</p></div>
+
+        </div>
+
+      </footer>
+
+      <!-- Modal Stake-->
+      <div class="modal -stake fade" id="stakeModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header justify-content-center">
+              <h5 class="modal-title">Macsen</h5>
+            </div>
+            <div class="modal-body">
+
+              <div class="d-flex mb-2">
+                <div>Amount</div>
+                <div class="ms-auto">Available: 155,468 ASC</div>
+              </div>
+              <div class="el__input d-flex align-items-center mb-3">
+                <input type="text" class="form-control" placeholder="Enter your amount">
+                <div class="el__input--unit">ASC</div>
+                <div class="el__input--prefix">Max</div>
+              </div>
+
+              <div class="alert alert-danger mb-3" role="alert">
+                <strong>Oops! Something went wrong</strong>
+                <p>Staking amount: 500 - 1000</p>
+              </div>
+
+              <ul class="el__list">
+                <li>
+                  <div class="li__label">APY</div>
+                  <div class="li__value">912.5%</div>
+                </li>
+                <li>
+                  <div class="li__label">Estimated Interests</div>
+                  <div class="li__value">--</div>
+                </li>
+              </ul>
+
+              <hr>
+
+              <div class="mb-3">
+                <div class="el__text">
+                  <p class="text-white">Conditions & Benefits:</p>
+                  <p>Min 500 ASC, max 1000 ASC each person</p>
+                  <p>Gift box (1 per 500 ASC)</p>
+                  <p>Testnet access</p>
+                  <p>Gift code (1 on joining staking)</p>
+                </div>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                <label class="form-check-label" for="flexCheckDefault2">
+                  I understand that after successfully bought, Hero level will be reset to nearest awaken level.
+                </label>
+              </div>
+
+            </div>
+            <div class="modal-actions d-flex justify-content-center gap-3">
+              <button type="button" class="btn-stake2 w-100 mw-0" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn-stake w-100 mw-0" data-bs-toggle="modal" data-bs-target="#stake2Modal">Confirm</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Stake Step 2-->
+      <div class="modal -stake fade" id="stake2Modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+
+            <div class="modal-stt text-center my-3">
+              <i class="icon-check-circle"></i>
+              <p class="modal-stt__text">Completed</p>
+              <h5 class="-title text-white">Macsen</h5>
+            </div>
+
+            <div class="modal-body">
+
+              <ul class="el__list">
+                <li>
+                  <div class="li__label">Earned</div>
+                  <div class="li__value">1 gift box</div>
+                </li>
+                <li>
+                  <div class="li__label">Added</div>
+                  <div class="li__value">200 ASC</div>
+                </li>
+                <li>
+                  <div class="li__label">Total</div>
+                  <div class="li__value">1,000 ASC</div>
+                </li>
+                <li>
+                  <div class="li__label">Redemption Date</div>
+                  <div class="li__value">2022-03-26 15:48</div>
+                </li>
+              </ul>
+
+            </div>
+            <div class="modal-actions d-flex justify-content-center gap-3">
+              <button type="button" class="btn-stake2 w-100 mw-0" data-bs-dismiss="modal">Add more</button>
+              <button type="button" class="btn-stake w-100 mw-0">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Modal benefitsModal -->
+      <div class="modal -stake fade" id="benefitsModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header justify-content-center">
+              <h5 class="modal-title">Benefits</h5>
+            </div>
+            <div class="modal-body">
+
+              <div class="el__item">
+                <p class="el__item__title">Gift boxes: 2</p>
+                <div class="el__item__content">
+                  <ul>
+                    <li>Macsen (Mythical)</li>
+                    <li>Afon (Common)</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="el__item">
+                <p class="el__item__title">Gift codes: 2</p>
+                <div class="el__item__content">
+                  <ul>
+                    <li>9237-527509-SFDOHF</li>
+                    <li>9237-527509-SFDOHF</li>
+                  </ul>
+                </div>
+              </div>
+              <p class="font14">*These items also appear in Profile page.</p>
+
+            </div>
+            <div class="modal-actions d-flex justify-content-center gap-3">
+              <button type="button" class="btn-stake" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal noteModal -->
+      <div class="modal -stake fade" id="noteModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header justify-content-center">
+              <h5 class="modal-title">Notes</h5>
+            </div>
+            <div class="modal-body">
+
+              <div class="el__item">
+                <p class="el__item__title">Gift box</p>
+                <div class="el__item__content">
+                  <p>Gift box is an item rewarded to testnet event whitelist winners and anyone who participates in the ASC staking pool.</p>
+                  <p>Each gift box contains 1 NFT and can be redeemed immediately after joining staking. This NFT will be available in game for players to play testnet.</p>
+                  <p>For each minimum amount staked adhere specifically to every pool, user will receive a gift box.</p>
+                </div>
+              </div>
+
+              <div class="el__item">
+                <p class="el__item__title">Gift code</p>
+                <div class="el__item__content">
+                  <p>Gift code is an item rewarded to who is eligible for gift box and extend to users who use reference code to invite more users to join the game.</p>
+                  <p>Gift code contains 1 item from the following pool: NFT, Free Awaken, Boxes of ASC, Pet (7 days), Decorative items.</p>
+                  <p>These gift codes can be exchanged to real-valued items when the mainnet version is released.</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="modal-actions d-flex justify-content-center gap-3">
+              <button type="button" class="btn-stake" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav id="menu__mobile" class="nav__mobile">
+        <div class="nav__mobile__close icon-close js-menu__close"></div>
+          <div class="nav__mobile__content">
+            <ul class="nav__mobile--ul mb-4">
+              <li class="menu-item active"><a href="index.html">HOME</a></li>
+              <li class="menu-item"><a href="https://doc.ashward.io/">LITEPAPER</a></li>
+              <li class="menu-item"><a href="https://events.ashward.io/">EVENTS</a></li>
+              <li class="menu-item"><a href="trade.html">MARKETPLACE</a></li>
+            </ul>
+          </div>
+      </nav>
+
+    </div> <!-- .wrapper -->
+
+
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
