@@ -31,6 +31,12 @@
 	&:hover{
 		background: rgba(220, 181, 44, 1);
 	}
+	&:disabled{
+		opacity: 0.4;
+		&:hover{
+			background: rgba(220, 181, 44, 0.4);
+		}
+	}
 }
 .wrapper.staking{
 	background-image: url(../img/staking-bg.png);
